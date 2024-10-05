@@ -872,7 +872,7 @@ export default function Home() {
           </div>
         </a>
       </div>
-      <div className="col-md-4 col-sm-6 grid-item fullstack Backend" style={{position: 'absolute', left: '33.3333%', top: 0}}>
+      <div className="col-md-4 col-sm-6 grid-item fullstack Backend next" style={{position: 'absolute', left: '33.3333%', top: 0}}>
   <a href="#" target="" rel="noopener noreferrer">
     <div className="portfolio-item rounded shadow-dark">
       <div className="details">
