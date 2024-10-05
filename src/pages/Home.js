@@ -291,7 +291,7 @@ export default function Home() {
                       <div className="skill-item">
                         <div className="skill-info clearfix">
                           <h4 className="float-left mb-3 mt-0">Development</h4>
-                          <span className="float-right">85%</span>
+                          <span className="float-right">95%</span>
                         </div>
                         <div className="progress">
                           <div
@@ -303,32 +303,6 @@ export default function Home() {
                             data-color="#FFD15C"
                             style={{
                               backgroundColor: "rgb(255, 209, 92)",
-                              width: "85%",
-                            }}
-                          ></div>
-                        </div>
-                        <div
-                          className="spacer"
-                          data-height={20}
-                          style={{ height: 20 }}
-                        />
-                      </div>
-                      {/* skill item */}
-                      <div className="skill-item">
-                        <div className="skill-info clearfix">
-                          <h4 className="float-left mb-3 mt-0">UI/UX design</h4>
-                          <span className="float-right">95%</span>
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar data-background"
-                            role="progressbar"
-                            aria-valuemin={0}
-                            aria-valuemax={100}
-                            aria-valuenow={95}
-                            data-color="#FF4C60"
-                            style={{
-                              backgroundColor: "rgb(255, 76, 96)",
                               width: "95%",
                             }}
                           ></div>
@@ -342,8 +316,34 @@ export default function Home() {
                       {/* skill item */}
                       <div className="skill-item">
                         <div className="skill-info clearfix">
+                          <h4 className="float-left mb-3 mt-0">UI/UX design</h4>
+                          <span className="float-right">85%</span>
+                        </div>
+                        <div className="progress">
+                          <div
+                            className="progress-bar data-background"
+                            role="progressbar"
+                            aria-valuemin={0}
+                            aria-valuemax={100}
+                            aria-valuenow={95}
+                            data-color="#FF4C60"
+                            style={{
+                              backgroundColor: "rgb(255, 76, 96)",
+                              width: "85%",
+                            }}
+                          ></div>
+                        </div>
+                        <div
+                          className="spacer"
+                          data-height={20}
+                          style={{ height: 20 }}
+                        />
+                      </div>
+                      {/* skill item */}
+                      <div className="skill-item">
+                        <div className="skill-info clearfix">
                           <h4 className="float-left mb-3 mt-0">DevOps</h4>
-                          <span className="float-right">70%</span>
+                          <span className="float-right">80%</span>
                         </div>
                         <div className="progress">
                           <div
@@ -355,7 +355,7 @@ export default function Home() {
                             data-color="#6C6CE5"
                             style={{
                               backgroundColor: "rgb(108, 108, 229)",
-                              width: "70%",
+                              width: "80%",
                             }}
                           ></div>
                         </div>
@@ -654,35 +654,38 @@ export default function Home() {
     <div className="spacer" data-height={60} style={{height: 60}} />
     {/* portfolio filter (desktop) */}
     <ul className="portfolio-filter list-inline wow fadeInUp" style={{visibility: 'visible', animationName: 'fadeInUp'}}>
-      <li className="list-inline-item current" data-filter="*">Everything</li>
-      <li className="list-inline-item" data-filter=".creative">Creative</li>
-      <li className="list-inline-item" data-filter=".art">Art</li>
-      <li className="list-inline-item" data-filter=".design">Design</li>
-      <li className="list-inline-item" data-filter=".branding">Branding</li>
+      <li className="list-inline-item current" data-filter="*">All</li>
+      <li className="list-inline-item" data-filter=".creative">Full Stack</li>
+      <li className="list-inline-item" data-filter=".creative">React.js</li>
+      <li className="list-inline-item" data-filter=".art">Next.js</li>
+      <li className="list-inline-item" data-filter=".design">Frontend</li>
+      <li className="list-inline-item" data-filter=".branding">Backend</li>
     </ul>
     {/* portfolio filter (mobile) */}
     <div className="pf-filter-wrapper">
       <select className="portfolio-filter-mobile">
-        <option value="*">Everything</option>
-        <option value=".creative">Creative</option>
-        <option value=".art">Art</option>
-        <option value=".design">Design</option>
-        <option value=".branding">Branding</option>
+        <option value="*">All</option>
+        <option value=".creative">Full Stack</option>
+        <option value=".creative">React.js</option>
+        <option value=".art">Next.js</option>
+        <option value=".design">Frontend</option>
+        <option value=".branding">Backend</option>
       </select>
     </div>
     {/* portolio wrapper */}
     <div className="row portfolio-wrapper" style={{position: 'relative', height: '892.575px'}}>
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item art" style={{position: 'absolute', left: '0%', top: 0}}>
-        <a href="assets/images/works/1.svg" className="work-image">
+        <a href="http://erp.abstarthr.in/" target="_blank" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Art</span>
               <h4 className="title">Project Managment Illustration</h4>
-              <span className="more-button"><i className="icon-magnifier-add" /></span>
+              <span className="more-button"><i className="icon-link" /></span>
+
             </div>
             <div className="thumb">
-              <img src="assets/images/works/1.svg" alt="Portfolio-title" />
+              <img src="assets/images/works/erp.png" alt="Portfolio-title" />
               <div className="mask" />
             </div>
           </div>
@@ -690,82 +693,79 @@ export default function Home() {
       </div>
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item creative design" style={{position: 'absolute', left: '33.3333%', top: 0}}>
-        <a href="#small-dialog" className="work-content">
-          <div className="portfolio-item rounded shadow-dark">
-            <div className="details">
-              <span className="term">Creative</span>
-              <h4 className="title">Guest App Walkthrough Screens</h4>
-              <span className="more-button"><i className="icon-options" /></span>
-            </div>
-            <div className="thumb">
-              <img src="assets/images/works/2.svg" alt="Portfolio-title" />
-              <div className="mask" />
-            </div>
-          </div>
-        </a>
-        <div id="small-dialog" className="white-popup zoom-anim-dialog mfp-hide">
-          <img src="assets/images/single-work.svg" alt="Title" />
-          <h2>Guest App Walkthrough Screens</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
-          <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
-          <a href="#" className="btn btn-default">View on Dribbble</a>
-        </div>
+  <a href="https://intellicoder.in/" target="_blank" rel="noopener noreferrer">
+    <div className="portfolio-item rounded shadow-dark">
+      <div className="details">
+        <span className="term">Creative</span>
+        <h4 className="title">Guest App Walkthrough Screens</h4>
+        <span className="more-button"><i className="icon-link" /></span>
       </div>
+      <div className="thumb">
+        <img src="assets/images/works/jrcoders.png" alt="Portfolio-title" />
+        <div className="mask" />
+      </div>
+    </div>
+  </a>
+</div>
+
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item branding" style={{position: 'absolute', left: '66.6667%', top: 0}}>
-        <a href="https://www.youtube.com/watch?v=qf9z4ulfmYw" className="work-video">
-          <div className="portfolio-item rounded shadow-dark">
-            <div className="details">
-              <span className="term">Branding</span>
-              <h4 className="title">Delivery App Wireframe</h4>
-              <span className="more-button"><i className="icon-camrecorder" /></span>
-            </div>
-            <div className="thumb">
-              <img src="assets/images/works/3.svg" alt="Portfolio-title" />
-              <div className="mask" />
-            </div>
-          </div>
-        </a>
+  <a href="https://shivkrishna-institute.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <div className="portfolio-item rounded shadow-dark">
+      <div className="details">
+        <span className="term">Branding</span>
+        <h4 className="title">Delivery App Wireframe</h4>
+        <span className="more-button"><i className="icon-link" /></span>
       </div>
+      <div className="thumb">
+        <img src="assets/images/works/shivkrishna.png" alt="Portfolio-title" />
+        <div className="mask" />
+      </div>
+    </div>
+  </a>
+</div>
+
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item creative" style={{position: 'absolute', left: '0%', top: 297}}>
-        <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240233494&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" className="work-video">
-          <div className="portfolio-item rounded shadow-dark">
-            <div className="details">
-              <span className="term">Creative</span>
-              <h4 className="title">Onboarding Motivation</h4>
-              <span className="more-button"><i className="icon-music-tone-alt" /></span>
-            </div>
-            <div className="thumb">
-              <img src="assets/images/works/4.svg" alt="Portfolio-title" />
-              <div className="mask" />
-            </div>
-          </div>
-        </a>
+  <a href="https://friends-gym.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <div className="portfolio-item rounded shadow-dark">
+      <div className="details">
+        <span className="term">Creative</span>
+        <h4 className="title">Onboarding Motivation</h4>
+        <span className="more-button"><i className="icon-link" /></span>
       </div>
+      <div className="thumb">
+        <img src="assets/images/works/friendsgym.png" alt="Portfolio-title" />
+        <div className="mask" />
+      </div>
+    </div>
+  </a>
+</div>
+
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item art branding" style={{position: 'absolute', left: '33.3333%', top: 297}}>
-        <a href="#gallery-1" className="gallery-link">
+        <a href="https://web-agency-sooty.vercel.app/" target="_blank" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Art, Branding</span>
               <h4 className="title">iMac Mockup Design</h4>
-              <span className="more-button"><i className="icon-picture" /></span>
+              <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
-              <img src="assets/images/works/5.svg" alt="Portfolio-title" />
+              <img src="assets/images/works/webagency.png" alt="Portfolio-title" />
               <div className="mask" />
             </div>
           </div>
         </a>
-        <div id="gallery-1" className="gallery mfp-hide">
+        {/* <div id="gallery-1" className="gallery mfp-hide">
           <a href="assets/images/works/5.svg" />
           <a href="assets/images/works/4.svg" />
-        </div>
+        </div> */}
       </div>
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item creative design" style={{position: 'absolute', left: '66.6667%', top: 297}}>
-        <a href="https://themeforest.net/user/pxlsolutions/portfolio" target="_blank">
+      <a href="https://creative-agency-sooty-mu.vercel.app/" target="_blank" rel="noopener noreferrer">
+
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Creative, Design</span>
@@ -773,36 +773,37 @@ export default function Home() {
               <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
-              <img src="assets/images/works/6.svg" alt="Portfolio-title" />
+              <img src="assets/images/works/designagency.png" alt="Portfolio-title" />
               <div className="mask" />
             </div>
           </div>
         </a>
       </div>
       <div className="col-md-4 col-sm-6 grid-item art" style={{position: 'absolute', left: '0%', top: 595}}>
-        <a href="assets/images/works/1.svg" className="work-image">
+        <a href="https://sam-portfolio-seven.vercel.app/" target="_blank" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Art</span>
               <h4 className="title">Project Managment Illustration</h4>
-              <span className="more-button"><i className="icon-magnifier-add" /></span>
+              <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
-              <img src="assets/images/works/3.svg" alt="Portfolio-title" />
+              <img src="assets/images/works/aileenportfolio.png" alt="Portfolio-title" />
               <div className="mask" />
             </div>
           </div>
         </a>
       </div><div className="col-md-4 col-sm-6 grid-item creative design" style={{position: 'absolute', left: '33.3333%', top: 595}}>
-        <a href="#small-dialog" className="work-content">
+      <a href="https://redux-toolkit-to-do-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">
+
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Creative</span>
               <h4 className="title">Guest App Walkthrough Screens</h4>
-              <span className="more-button"><i className="icon-options" /></span>
+              <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
-              <img src="assets/images/works/1.svg" alt="Portfolio-title" />
+              <img src="assets/images/works/reduxtodo.png" alt="Portfolio-title" />
               <div className="mask" />
             </div>
           </div>
@@ -814,24 +815,42 @@ export default function Home() {
           <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
           <a href="#" className="btn btn-default">View on Dribbble</a>
         </div>
-      </div><div className="col-md-4 col-sm-6 grid-item branding" style={{position: 'absolute', left: '66.6667%', top: 595}}>
-        <a href="https://www.youtube.com/watch?v=qf9z4ulfmYw" className="work-video">
+      </div>
+      <div className="col-md-4 col-sm-6 grid-item branding" style={{position: 'absolute', left: '66.6667%', top: 595}}>
+        <a href="https://portfolio-eight-taupe-19.vercel.app/" target="_blank" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Branding</span>
               <h4 className="title">Delivery App Wireframe</h4>
-              <span className="more-button"><i className="icon-camrecorder" /></span>
+              <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
-              <img src="assets/images/works/4.svg" alt="Portfolio-title" />
+              <img src="assets/images/works/samportfolio.png" alt="Portfolio-title" />
               <div className="mask" />
             </div>
           </div>
         </a>
-      </div></div>
+      </div>
+      <div className="col-md-4 col-sm-6 grid-item branding" style={{position: 'absolute', left: '66.6667%', top: 595}}>
+        <a href="#" className="work-video">
+          <div className="portfolio-item rounded shadow-dark">
+            <div className="details">
+              <span className="term">Branding</span>
+              <h4 className="title">Delivery App Wireframe</h4>
+              <span className="more-button"><i className="icon-link" /></span>
+            </div>
+            <div className="thumb">
+              <img src="assets/images/works/xclone.png" alt="Portfolio-title" />
+              <div className="mask" />
+            </div>
+          </div>
+        </a>
+      </div>
+      </div>
     {/* more button */}
   </div>
 </section>
+
 
 
         {/* section prices */}
