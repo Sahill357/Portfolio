@@ -676,7 +676,7 @@ export default function Home() {
     <div className="row portfolio-wrapper" style={{position: 'relative', height: '892.575px'}}>
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item art" style={{position: 'absolute', left: '0%', top: 0}}>
-        <a href="http://erp.abstarthr.in/" target="_blank" rel="noopener noreferrer">
+        <a href="http://erp.abstarthr.in/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Art</span>
@@ -693,7 +693,7 @@ export default function Home() {
       </div>
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item creative design" style={{position: 'absolute', left: '33.3333%', top: 0}}>
-  <a href="https://intellicoder.in/" target="_blank" rel="noopener noreferrer">
+  <a href="https://intellicoder.in/" target="" rel="noopener noreferrer">
     <div className="portfolio-item rounded shadow-dark">
       <div className="details">
         <span className="term">Creative</span>
@@ -710,7 +710,7 @@ export default function Home() {
 
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item branding" style={{position: 'absolute', left: '66.6667%', top: 0}}>
-  <a href="https://shivkrishna-institute.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <a href="https://shivkrishna-institute.vercel.app/" target="" rel="noopener noreferrer">
     <div className="portfolio-item rounded shadow-dark">
       <div className="details">
         <span className="term">Branding</span>
@@ -727,7 +727,7 @@ export default function Home() {
 
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item creative" style={{position: 'absolute', left: '0%', top: 297}}>
-  <a href="https://friends-gym.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <a href="https://friends-gym.vercel.app/" target="" rel="noopener noreferrer">
     <div className="portfolio-item rounded shadow-dark">
       <div className="details">
         <span className="term">Creative</span>
@@ -744,7 +744,7 @@ export default function Home() {
 
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item art branding" style={{position: 'absolute', left: '33.3333%', top: 297}}>
-        <a href="https://web-agency-sooty.vercel.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://web-agency-sooty.vercel.app/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Art, Branding</span>
@@ -764,7 +764,7 @@ export default function Home() {
       </div>
       {/* portfolio item */}
       <div className="col-md-4 col-sm-6 grid-item creative design" style={{position: 'absolute', left: '66.6667%', top: 297}}>
-      <a href="https://creative-agency-sooty-mu.vercel.app/" target="_blank" rel="noopener noreferrer">
+      <a href="https://creative-agency-sooty-mu.vercel.app/" target="" rel="noopener noreferrer">
 
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
@@ -780,7 +780,7 @@ export default function Home() {
         </a>
       </div>
       <div className="col-md-4 col-sm-6 grid-item art" style={{position: 'absolute', left: '0%', top: 595}}>
-        <a href="https://sam-portfolio-seven.vercel.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://sam-portfolio-seven.vercel.app/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Art</span>
@@ -794,7 +794,7 @@ export default function Home() {
           </div>
         </a>
       </div><div className="col-md-4 col-sm-6 grid-item creative design" style={{position: 'absolute', left: '33.3333%', top: 595}}>
-      <a href="https://redux-toolkit-to-do-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">
+      <a href="https://redux-toolkit-to-do-kappa.vercel.app/" target="" rel="noopener noreferrer">
 
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
@@ -817,7 +817,7 @@ export default function Home() {
         </div>
       </div>
       <div className="col-md-4 col-sm-6 grid-item branding" style={{position: 'absolute', left: '66.6667%', top: 595}}>
-        <a href="https://portfolio-eight-taupe-19.vercel.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://portfolio-eight-taupe-19.vercel.app/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Branding</span>
