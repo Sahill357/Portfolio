@@ -204,8 +204,8 @@ export default function Home() {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://www.instagram.com/sahil_357_/">
-                    <i className="fab fa-instagram" />
+                <a href="mailto:itsmesahil357@gmail.com">
+                  <i className="fas fa-envelope" />
                   </a>
                 </li>
                 <li className="list-inline-item">
@@ -316,7 +316,7 @@ export default function Home() {
                         exploring new things.
                       </p>
                       <div className="mt-3">
-                        <a href="#" className="btn btn-default">
+                        <a href="https://drive.google.com/file/d/110TbsESYlYfaOmzcwkF_aDKgxfB6xViv/view?usp=sharing" className="btn btn-default">
                           Download CV
                         </a>
                       </div>
@@ -694,45 +694,46 @@ export default function Home() {
     <div className="spacer" data-height={60} style={{height: 60}} />
     {/* portfolio filter (desktop) */}
     <ul className="portfolio-filter list-inline wow fadeInUp" style={{visibility: 'visible', animationName: 'fadeInUp'}}>
-      <li className="list-inline-item current" data-filter="*">All</li>
-      <li className="list-inline-item" data-filter=".creative">Full Stack</li>
-      <li className="list-inline-item" data-filter=".creative">React.js</li>
-      <li className="list-inline-item" data-filter=".art">Next.js</li>
-      <li className="list-inline-item" data-filter=".design">Frontend</li>
-      <li className="list-inline-item" data-filter=".branding">Backend</li>
-    </ul>
+  <li className="list-inline-item current" data-filter="*">All</li>
+  <li className="list-inline-item" data-filter=".react">React.js</li>
+  <li className="list-inline-item" data-filter=".fullstack">Full Stack</li>  
+  <li className="list-inline-item" data-filter=".next">Next.js</li>
+  <li className="list-inline-item" data-filter=".htmlwithreact">Frontend</li>
+  <li className="list-inline-item" data-filter=".Backend">Backend</li>
+</ul>
+
     {/* portfolio filter (mobile) */}
     <div className="pf-filter-wrapper">
       <select className="portfolio-filter-mobile">
         <option value="*">All</option>
-        <option value=".creative">Full Stack</option>
-        <option value=".creative">React.js</option>
-        <option value=".art">Next.js</option>
+        <option value=".react">React.js</option>
+        <option value=".fullstack">Full Stack</option>
+        <option value=".next">Next.js</option>
         <option value=".design">Frontend</option>
-        <option value=".branding">Backend</option>
+        <option value=".Backend">Backend</option>
       </select>
     </div>
     {/* portolio wrapper */}
     <div className="row portfolio-wrapper" style={{position: 'relative', height: '892.575px'}}>
       {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item art" style={{position: 'absolute', left: '0%', top: 0}}>
-        <a href="http://erp.abstarthr.in/" target="" rel="noopener noreferrer">
-          <div className="portfolio-item rounded shadow-dark">
-            <div className="details">
-              <span className="term">ERP</span>
-              <h4 className="title">ERP Managment System</h4>
-              <span className="more-button"><i className="icon-link" /></span>
-
-            </div>
-            <div className="thumb">
-              <img src="assets/images/works/erp.png" alt="Portfolio-title" />
-              <div className="mask" />
-            </div>
-          </div>
-        </a>
+      <div className="col-md-4 col-sm-6 grid-item fullstack Backend" style={{position: 'absolute', left: '0%', top: 0}}>
+  <a href="http://erp.abstarthr.in/" target="" rel="noopener noreferrer">
+    <div className="portfolio-item rounded shadow-dark">
+      <div className="details">
+        <span className="term">ERP</span>
+        <h4 className="title">ERP Management System</h4>
+        <span className="more-button"><i className="icon-link" /></span>
       </div>
+      <div className="thumb">
+        <img src="assets/images/works/erp.png" alt="Portfolio-title" />
+        <div className="mask" />
+      </div>
+    </div>
+  </a>
+</div>
+
       {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item creative design" style={{position: 'absolute', left: '33.3333%', top: 0}}>
+      <div className="col-md-4 col-sm-6 grid-item creative design react htmlwithreact" style={{position: 'absolute', left: '33.3333%', top: 0}}>
   <a href="https://intellicoder.in/" target="" rel="noopener noreferrer">
     <div className="portfolio-item rounded shadow-dark">
       <div className="details">
@@ -749,9 +750,9 @@ export default function Home() {
 </div>
 
       {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item branding" style={{position: 'absolute', left: '66.6667%', top: 0}}>
+      <div className="col-md-4 col-sm-6 grid-item branding react htmlwithreact" style={{position: 'absolute', left: '66.6667%', top: 0}}>
   <a href="https://shivkrishna-institute.vercel.app/" target="" rel="noopener noreferrer">
-    <div className="portfolio-item rounded shadow-dark">
+    <div className="portfolio-item rounded shadow-dark ">
       <div className="details">
         <span className="term">institute</span>
         <h4 className="title">Digital Learning institute</h4>
@@ -766,7 +767,7 @@ export default function Home() {
 </div>
 
       {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item creative" style={{position: 'absolute', left: '0%', top: 297}}>
+      <div className="col-md-4 col-sm-6 grid-item creative react htmlwithreact" style={{position: 'absolute', left: '0%', top: 297}}>
   <a href="https://friends-gym.vercel.app/" target="" rel="noopener noreferrer">
     <div className="portfolio-item rounded shadow-dark">
       <div className="details">
@@ -783,7 +784,7 @@ export default function Home() {
 </div>
 
       {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item art branding" style={{position: 'absolute', left: '33.3333%', top: 297}}>
+      <div className="col-md-4 col-sm-6 grid-item art branding next" style={{position: 'absolute', left: '33.3333%', top: 297}}>
         <a href="https://web-agency-sooty.vercel.app/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
@@ -803,7 +804,7 @@ export default function Home() {
         </div> */}
       </div>
       {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item creative design" style={{position: 'absolute', left: '66.6667%', top: 297}}>
+      <div className="col-md-4 col-sm-6 grid-item creative design react htmlwithreact" style={{position: 'absolute', left: '66.6667%', top: 297}}>
       <a href="https://creative-agency-sooty-mu.vercel.app/" target="" rel="noopener noreferrer">
 
           <div className="portfolio-item rounded shadow-dark">
@@ -819,7 +820,7 @@ export default function Home() {
           </div>
         </a>
       </div>
-      <div className="col-md-4 col-sm-6 grid-item art" style={{position: 'absolute', left: '0%', top: 595}}>
+      <div className="col-md-4 col-sm-6 grid-item art react htmlwithreact" style={{position: 'absolute', left: '0%', top: 595}}>
         <a href="https://sam-portfolio-seven.vercel.app/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
@@ -833,7 +834,7 @@ export default function Home() {
             </div>
           </div>
         </a>
-      </div><div className="col-md-4 col-sm-6 grid-item creative design" style={{position: 'absolute', left: '33.3333%', top: 595}}>
+      </div><div className="col-md-4 col-sm-6 grid-item creative design react htmlwithreact" style={{position: 'absolute', left: '33.3333%', top: 595}}>
       <a href="https://redux-toolkit-to-do-kappa.vercel.app/" target="" rel="noopener noreferrer">
 
           <div className="portfolio-item rounded shadow-dark">
@@ -856,7 +857,7 @@ export default function Home() {
           <a href="#" className="btn btn-default">View on Dribbble</a>
         </div>
       </div>
-      <div className="col-md-4 col-sm-6 grid-item branding" style={{position: 'absolute', left: '66.6667%', top: 595}}>
+      <div className="col-md-4 col-sm-6 grid-item branding react htmlwithreact" style={{position: 'absolute', left: '66.6667%', top: 595}}>
         <a href="https://portfolio-eight-taupe-19.vercel.app/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
@@ -871,21 +872,21 @@ export default function Home() {
           </div>
         </a>
       </div>
-      <div className="col-md-4 col-sm-6 grid-item branding" style={{position: 'absolute', left: '66.6667%', top: 595}}>
-        <a href="#" className="details">
-          <div className="portfolio-item rounded shadow-dark">
-            <div className="details">
-              <span className="term">X </span>
-              <h4 className="title">X Clone </h4>
-              <span className="more-button"><i className="icon-link" /></span>
-            </div>
-            <div className="thumb">
-              <img src="assets/images/works/xclone.png" alt="Portfolio-title" />
-              <div className="mask" />
-            </div>
-          </div>
-        </a>
+      <div className="col-md-4 col-sm-6 grid-item fullstack Backend" style={{position: 'absolute', left: '33.3333%', top: 0}}>
+  <a href="#" target="" rel="noopener noreferrer">
+    <div className="portfolio-item rounded shadow-dark">
+      <div className="details">
+        <span className="term">X Clone</span>
+        <h4 className="title">X Clone</h4>
+        <span className="more-button"><i className="icon-link" /></span>
       </div>
+      <div className="thumb">
+        <img src="assets/images/works/xclone.png" alt="Portfolio-title" />
+        <div className="mask" />
+      </div>
+    </div>
+  </a>
+</div>
       </div>
     {/* more button */}
   </div>
