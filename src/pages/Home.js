@@ -679,8 +679,8 @@ export default function Home() {
         <a href="http://erp.abstarthr.in/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
-              <span className="term">Art</span>
-              <h4 className="title">Project Managment Illustration</h4>
+              <span className="term">ERP</span>
+              <h4 className="title">ERP Managment System</h4>
               <span className="more-button"><i className="icon-link" /></span>
 
             </div>
@@ -696,8 +696,8 @@ export default function Home() {
   <a href="https://intellicoder.in/" target="" rel="noopener noreferrer">
     <div className="portfolio-item rounded shadow-dark">
       <div className="details">
-        <span className="term">Creative</span>
-        <h4 className="title">Guest App Walkthrough Screens</h4>
+        <span className="term">E-Learning</span>
+        <h4 className="title">E-Learning Coding Platform</h4>
         <span className="more-button"><i className="icon-link" /></span>
       </div>
       <div className="thumb">
@@ -713,8 +713,8 @@ export default function Home() {
   <a href="https://shivkrishna-institute.vercel.app/" target="" rel="noopener noreferrer">
     <div className="portfolio-item rounded shadow-dark">
       <div className="details">
-        <span className="term">Branding</span>
-        <h4 className="title">Delivery App Wireframe</h4>
+        <span className="term">institute</span>
+        <h4 className="title">Digital Learning institute</h4>
         <span className="more-button"><i className="icon-link" /></span>
       </div>
       <div className="thumb">
@@ -730,8 +730,8 @@ export default function Home() {
   <a href="https://friends-gym.vercel.app/" target="" rel="noopener noreferrer">
     <div className="portfolio-item rounded shadow-dark">
       <div className="details">
-        <span className="term">Creative</span>
-        <h4 className="title">Onboarding Motivation</h4>
+        <span className="term">Fitness</span>
+        <h4 className="title">Fitness Center</h4>
         <span className="more-button"><i className="icon-link" /></span>
       </div>
       <div className="thumb">
@@ -747,8 +747,8 @@ export default function Home() {
         <a href="https://web-agency-sooty.vercel.app/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
-              <span className="term">Art, Branding</span>
-              <h4 className="title">iMac Mockup Design</h4>
+              <span className="term">Web Agency</span>
+              <h4 className="title">Information technology Agency</h4>
               <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
@@ -769,7 +769,7 @@ export default function Home() {
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
               <span className="term">Creative, Design</span>
-              <h4 className="title">Game Store App Concept</h4>
+              <h4 className="title">Digital Web App, Mobile App Development Agency</h4>
               <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
@@ -783,8 +783,8 @@ export default function Home() {
         <a href="https://sam-portfolio-seven.vercel.app/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
-              <span className="term">Art</span>
-              <h4 className="title">Project Managment Illustration</h4>
+              <span className="term">Portfolio</span>
+              <h4 className="title">Classic Portfolio</h4>
               <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
@@ -798,8 +798,8 @@ export default function Home() {
 
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
-              <span className="term">Creative</span>
-              <h4 className="title">Guest App Walkthrough Screens</h4>
+              <span className="term">To-Do</span>
+              <h4 className="title">Redux ToolKit To-Do</h4>
               <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
@@ -820,8 +820,8 @@ export default function Home() {
         <a href="https://portfolio-eight-taupe-19.vercel.app/" target="" rel="noopener noreferrer">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
-              <span className="term">Branding</span>
-              <h4 className="title">Delivery App Wireframe</h4>
+              <span className="term">Portfolio</span>
+              <h4 className="title">Personal Porfolio</h4>
               <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
@@ -832,11 +832,11 @@ export default function Home() {
         </a>
       </div>
       <div className="col-md-4 col-sm-6 grid-item branding" style={{position: 'absolute', left: '66.6667%', top: 595}}>
-        <a href="#" className="work-video">
+        <a href="#" className="details">
           <div className="portfolio-item rounded shadow-dark">
             <div className="details">
-              <span className="term">Branding</span>
-              <h4 className="title">Delivery App Wireframe</h4>
+              <span className="term">X </span>
+              <h4 className="title">X Clone </h4>
               <span className="more-button"><i className="icon-link" /></span>
             </div>
             <div className="thumb">
