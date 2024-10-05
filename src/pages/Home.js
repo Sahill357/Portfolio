@@ -709,7 +709,7 @@ export default function Home() {
         <option value=".react">React.js</option>
         <option value=".fullstack">Full Stack</option>
         <option value=".next">Next.js</option>
-        <option value=".design">Frontend</option>
+        <option value=".htmlwithreact">Frontend</option>
         <option value=".Backend">Backend</option>
       </select>
     </div>
