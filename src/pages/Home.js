@@ -44,16 +44,16 @@ export default function Home() {
   return (
     <body className="dark">
       {/* Preloader */}
-      <div id="preloader">
-        <div className="outer">
+      {/* <div id="preloader">
+        <div className="outer"> */}
           {/* Google Chrome */}
-          <div className="infinityChrome">
+          {/* <div className="infinityChrome">
             <div />
             <div />
             <div />
-          </div>
+          </div> */}
           {/* Safari and others */}
-          <div className="infinity">
+          {/* <div className="infinity">
             <div>
               <span />
             </div>
@@ -63,9 +63,9 @@ export default function Home() {
             <div>
               <span />
             </div>
-          </div>
+          </div> */}
           {/* Stuff */}
-          <svg
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             className="goo-outer"
@@ -87,7 +87,7 @@ export default function Home() {
             </defs>
           </svg>
         </div>
-      </div>
+      </div> */}
       {/* Preloader */}
 
       {/* mobile header */}
