@@ -316,7 +316,7 @@ export default function Home() {
                         exploring new things.
                       </p>
                       <div className="mt-3">
-                        <a href="https://drive.google.com/file/d/1m5YoDl8JMgkvtCS0iBxh2SJm0IicMpQ1/view?usp=sharing" className="btn btn-default">
+                        <a href="https://drive.google.com/file/d/110TbsESYlYfaOmzcwkF_aDKgxfB6xViv/view?usp=sharing" className="btn btn-default">
                           Download CV
                         </a>
                       </div>
