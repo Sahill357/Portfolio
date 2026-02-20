@@ -191,7 +191,7 @@ export default function Home() {
               {/* info */}
               <h1 className="mb-2 mt-0">Sahil Shaikh</h1>
               <span>
-                I'm a{" "}
+
                 <span className="text-rotating morphext">
                   <span className="animated bounceIn">Software Engineer</span>
                 </span>
