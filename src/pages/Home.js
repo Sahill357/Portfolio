@@ -1052,6 +1052,7 @@ export default function Home() {
                     tabIndex={-1}
                     role="option"
                     aria-describedby="slick-slide00"
+                    aria-selected="false"
                   >
                     <div className="thumb mb-3 mx-auto">
                       <img
@@ -1078,6 +1079,7 @@ export default function Home() {
                     tabIndex={-1}
                     role="option"
                     aria-describedby="slick-slide01"
+                    aria-selected="true"
                   >
                     <div className="thumb mb-3 mx-auto">
                       <img
@@ -1132,14 +1134,12 @@ export default function Home() {
                   className
                   aria-hidden="true"
                   role="presentation"
-                  aria-selected="true"
                   aria-controls="navigation00"
                   id="slick-slide00"
                 >
                   <button
                     type="button"
                     data-role="none"
-                    role="button"
                     tabIndex={0}
                   >
                     1
@@ -1148,7 +1148,6 @@ export default function Home() {
                 <li
                   aria-hidden="false"
                   role="presentation"
-                  aria-selected="false"
                   aria-controls="navigation01"
                   id="slick-slide01"
                   className="slick-active"
@@ -1156,7 +1155,6 @@ export default function Home() {
                   <button
                     type="button"
                     data-role="none"
-                    role="button"
                     tabIndex={0}
                   >
                     2
@@ -1192,16 +1190,16 @@ export default function Home() {
                   }}
                 >
                   <div className="thumb">
-                    <a href="#">
+                    <a href="#!">
                       <span className="category">Reviews</span>
                     </a>
-                    <a href="#">
+                    <a href="#!">
                       <img src="assets/images/blog/1.svg" alt="blog-title" />
                     </a>
                   </div>
                   <div className="details">
                     <h4 className="my-0 title">
-                      <a href="#">
+                      <a href="#!">
                         5 Best Web Development Tool for Your Project
                       </a>
                     </h4>
@@ -1224,16 +1222,16 @@ export default function Home() {
                   }}
                 >
                   <div className="thumb">
-                    <a href="#">
+                    <a href="#!">
                       <span className="category">Tutorial</span>
                     </a>
-                    <a href="#">
+                    <a href="#!">
                       <img src="assets/images/blog/2.svg" alt="blog-title" />
                     </a>
                   </div>
                   <div className="details">
                     <h4 className="my-0 title">
-                      <a href="#">Common Misconceptions About Payment</a>
+                      <a href="#!">Common Misconceptions About Payment</a>
                     </h4>
                     <ul className="list-inline meta mb-0 mt-2">
                       <li className="list-inline-item">07 February, 2020</li>
@@ -1254,16 +1252,16 @@ export default function Home() {
                   }}
                 >
                   <div className="thumb">
-                    <a href="#">
+                    <a href="#!">
                       <span className="category">Business</span>
                     </a>
-                    <a href="#">
+                    <a href="#!">
                       <img src="assets/images/blog/3.svg" alt="blog-title" />
                     </a>
                   </div>
                   <div className="details">
                     <h4 className="my-0 title">
-                      <a href="#">3 Things To Know About Startup Business</a>
+                      <a href="#!">3 Things To Know About Startup Business</a>
                     </h4>
                     <ul className="list-inline meta mb-0 mt-2">
                       <li className="list-inline-item">06 February, 2020</li>
