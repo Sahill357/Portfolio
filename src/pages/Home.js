@@ -296,7 +296,7 @@ export default function Home() {
               <div className="col-md-3">
                 <div className="text-center text-md-left">
                   {/* avatar image */}
-                  <img src="assets/images/this.png" alt="Bolby" />
+                  <img src="assets/images/sam-image.png" alt="Bolby" />
                 </div>
                 <div
                   className="spacer d-md-none d-lg-none"
