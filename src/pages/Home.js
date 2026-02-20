@@ -46,14 +46,14 @@ export default function Home() {
       {/* Preloader */}
       {/* <div id="preloader">
         <div className="outer"> */}
-          {/* Google Chrome */}
-          {/* <div className="infinityChrome">
+      {/* Google Chrome */}
+      {/* <div className="infinityChrome">
             <div />
             <div />
             <div />
           </div> */}
-          {/* Safari and others */}
-          {/* <div className="infinity">
+      {/* Safari and others */}
+      {/* <div className="infinity">
             <div>
               <span />
             </div>
@@ -64,8 +64,8 @@ export default function Home() {
               <span />
             </div>
           </div> */}
-          {/* Stuff */}
-          {/* <svg
+      {/* Stuff */}
+      {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             className="goo-outer"
@@ -116,7 +116,7 @@ export default function Home() {
         <div className="site-logo">
           <a href="index-dark.html">
             {/* <img src="assets/images/2.png" alt="Bolby" /> */}
-            
+
           </a>
         </div>
         {/* main menu */}
@@ -204,8 +204,8 @@ export default function Home() {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                <a href="mailto:itsmesahil357@gmail.com">
-                  <i className="fas fa-envelope" />
+                  <a href="mailto:itsmesahil357@gmail.com">
+                    <i className="fas fa-envelope" />
                   </a>
                 </li>
                 <li className="list-inline-item">
@@ -236,47 +236,47 @@ export default function Home() {
               </a>
             </div>
             {/* parallax layers */}
-           <div className="parallax" data-relative-input="true" style={{transform: 'translate3d(0px, 0px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden'}}>
-  <svg width={27} height={29} data-depth="0.3" className="layer p1" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(33.456px, -13.38px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'relative', display: 'block'}}>
-    <path d="M21.15625.60099c4.37954 3.67487 6.46544 9.40612 5.47254 15.03526-.9929 5.62915-4.91339 10.30141-10.2846 12.25672-5.37122 1.9553-11.3776.89631-15.75715-2.77856l2.05692-2.45134c3.50315 2.93948 8.3087 3.78663 12.60572 2.22284 4.297-1.5638 7.43381-5.30209 8.22768-9.80537.79387-4.50328-.8749-9.08872-4.37803-12.02821L21.15625.60099z" fill="#FFD15C" fillRule="evenodd" />
-  </svg>
-  <svg width={26} height={26} data-depth="0.2" className="layer p2" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(22.304px, -8.92px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block'}}>
-    <path d="M13 3.3541L2.42705 24.5h21.1459L13 3.3541z" stroke="#FF4C60" strokeWidth={3} fill="none" fillRule="evenodd" />
-  </svg>
-  <svg width={30} height={25} data-depth="0.3" className="layer p3" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(33.456px, -13.38px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block'}}>
-    <path d="M.1436 8.9282C3.00213 3.97706 8.2841.92763 14.00013.92796c5.71605.00032 10.9981 3.04992 13.85641 8 2.8583 4.95007 2.8584 11.0491-.00014 16.00024l-2.77128-1.6c2.28651-3.96036 2.28631-8.84002.00011-12.8002-2.2862-3.96017-6.5124-6.40017-11.08513-6.4-4.57271.00018-8.79872 2.43984-11.08524 6.4002l-2.77128-1.6z" fill="#44D7B6" fillRule="evenodd" />
-  </svg>
-  <svg width={15} height={23} data-depth="0.6" className="layer p4" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(66.912px, -26.76px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block'}}>
-    <rect transform="rotate(30 9.86603 10.13397)" x={7} width={3} height={25} rx="1.5" fill="#FFD15C" fillRule="evenodd" />
-  </svg>
-  <svg width={15} height={23} data-depth="0.2" className="layer p5" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(22.304px, -8.92px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block'}}>
-    <rect transform="rotate(30 9.86603 10.13397)" x={7} width={3} height={25} rx="1.5" fill="#6C6CE5" fillRule="evenodd" />
-  </svg>
-  <svg width={49} height={17} data-depth="0.5" className="layer p6" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(55.76px, -22.3px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block'}}>
-    <g fill="#FF4C60" fillRule="evenodd">
-      <path d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z" />
-      <path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z" />
-    </g>
-  </svg>
-  <svg width={26} height={26} data-depth="0.4" className="layer p7" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(44.608px, -17.84px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block'}}>
-    <path d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z" stroke="#FFD15C" strokeWidth={3} fill="none" fillRule="evenodd" />
-  </svg>
-  <svg width={19} height={21} data-depth="0.3" className="layer p8" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(33.456px, -13.38px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block'}}>
-    <rect transform="rotate(-40 6.25252 10.12626)" x={7} width={3} height={25} rx="1.5" fill="#6C6CE5" fillRule="evenodd" />
-  </svg>
-  <svg width={30} height={25} data-depth="0.3" data-depth-y="-1.30" className="layer p9" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(33.456px, -13.38px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block'}}>
-    <path d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z" fill="#6C6CE5" fillRule="evenodd" />
-  </svg>
-  <svg width={47} height={29} data-depth="0.2" className="layer p10" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(22.304px, -8.92px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block'}}>
-    <g fill="#44D7B6" fillRule="evenodd">
-      <path d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z" />
-      <path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z" />
-    </g>
-  </svg>
-  <svg width={33} height={20} data-depth="0.5" className="layer p11" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translate3d(55.76px, -22.3px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block'}}>
-    <path d="M32.36774.34317c.99276 5.63023-1.09332 11.3614-5.47227 15.03536-4.37895 3.67396-10.3855 4.73307-15.75693 2.77837C5.76711 16.2022 1.84665 11.53014.8539 5.8999l3.15139-.55567c.7941 4.50356 3.93083 8.24147 8.22772 9.8056 4.29688 1.56413 9.10275.71673 12.60554-2.2227C28.34133 9.98771 30.01045 5.4024 29.21635.89884l3.15139-.55567z" fill="#FFD15C" fillRule="evenodd" />
-  </svg>
-</div>
+            <div className="parallax" data-relative-input="true" style={{ transform: 'translate3d(0px, 0px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden' }}>
+              <svg width={27} height={29} data-depth="0.3" className="layer p1" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(33.456px, -13.38px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'relative', display: 'block' }}>
+                <path d="M21.15625.60099c4.37954 3.67487 6.46544 9.40612 5.47254 15.03526-.9929 5.62915-4.91339 10.30141-10.2846 12.25672-5.37122 1.9553-11.3776.89631-15.75715-2.77856l2.05692-2.45134c3.50315 2.93948 8.3087 3.78663 12.60572 2.22284 4.297-1.5638 7.43381-5.30209 8.22768-9.80537.79387-4.50328-.8749-9.08872-4.37803-12.02821L21.15625.60099z" fill="#FFD15C" fillRule="evenodd" />
+              </svg>
+              <svg width={26} height={26} data-depth="0.2" className="layer p2" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(22.304px, -8.92px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block' }}>
+                <path d="M13 3.3541L2.42705 24.5h21.1459L13 3.3541z" stroke="#FF4C60" strokeWidth={3} fill="none" fillRule="evenodd" />
+              </svg>
+              <svg width={30} height={25} data-depth="0.3" className="layer p3" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(33.456px, -13.38px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block' }}>
+                <path d="M.1436 8.9282C3.00213 3.97706 8.2841.92763 14.00013.92796c5.71605.00032 10.9981 3.04992 13.85641 8 2.8583 4.95007 2.8584 11.0491-.00014 16.00024l-2.77128-1.6c2.28651-3.96036 2.28631-8.84002.00011-12.8002-2.2862-3.96017-6.5124-6.40017-11.08513-6.4-4.57271.00018-8.79872 2.43984-11.08524 6.4002l-2.77128-1.6z" fill="#44D7B6" fillRule="evenodd" />
+              </svg>
+              <svg width={15} height={23} data-depth="0.6" className="layer p4" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(66.912px, -26.76px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block' }}>
+                <rect transform="rotate(30 9.86603 10.13397)" x={7} width={3} height={25} rx="1.5" fill="#FFD15C" fillRule="evenodd" />
+              </svg>
+              <svg width={15} height={23} data-depth="0.2" className="layer p5" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(22.304px, -8.92px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block' }}>
+                <rect transform="rotate(30 9.86603 10.13397)" x={7} width={3} height={25} rx="1.5" fill="#6C6CE5" fillRule="evenodd" />
+              </svg>
+              <svg width={49} height={17} data-depth="0.5" className="layer p6" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(55.76px, -22.3px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block' }}>
+                <g fill="#FF4C60" fillRule="evenodd">
+                  <path d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z" />
+                  <path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z" />
+                </g>
+              </svg>
+              <svg width={26} height={26} data-depth="0.4" className="layer p7" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(44.608px, -17.84px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block' }}>
+                <path d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z" stroke="#FFD15C" strokeWidth={3} fill="none" fillRule="evenodd" />
+              </svg>
+              <svg width={19} height={21} data-depth="0.3" className="layer p8" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(33.456px, -13.38px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block' }}>
+                <rect transform="rotate(-40 6.25252 10.12626)" x={7} width={3} height={25} rx="1.5" fill="#6C6CE5" fillRule="evenodd" />
+              </svg>
+              <svg width={30} height={25} data-depth="0.3" data-depth-y="-1.30" className="layer p9" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(33.456px, -13.38px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block' }}>
+                <path d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z" fill="#6C6CE5" fillRule="evenodd" />
+              </svg>
+              <svg width={47} height={29} data-depth="0.2" className="layer p10" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(22.304px, -8.92px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block' }}>
+                <g fill="#44D7B6" fillRule="evenodd">
+                  <path d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z" />
+                  <path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z" />
+                </g>
+              </svg>
+              <svg width={33} height={20} data-depth="0.5" className="layer p11" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'translate3d(55.76px, -22.3px, 0px)', transformStyle: 'preserve-3d', backfaceVisibility: 'hidden', position: 'absolute', display: 'block' }}>
+                <path d="M32.36774.34317c.99276 5.63023-1.09332 11.3614-5.47227 15.03536-4.37895 3.67396-10.3855 4.73307-15.75693 2.77837C5.76711 16.2022 1.84665 11.53014.8539 5.8999l3.15139-.55567c.7941 4.50356 3.93083 8.24147 8.22772 9.8056 4.29688 1.56413 9.10275.71673 12.60554-2.2227C28.34133 9.98771 30.01045 5.4024 29.21635.89884l3.15139-.55567z" fill="#FFD15C" fillRule="evenodd" />
+              </svg>
+            </div>
 
           </div>
         </section>
@@ -414,7 +414,7 @@ export default function Home() {
                   <span className="icon icon-fire" />
                   <div className="details">
                     <h3 className="mb-0 mt-0 number">
-                      <em className="count">185+</em>
+                      <em className="count">485+</em>
                     </h3>
                     <p className="mb-0">DSA Problem Solved</p>
                   </div>
@@ -431,7 +431,7 @@ export default function Home() {
                   <span className="icon icon-cup" />
                   <div className="details">
                     <h3 className="mb-0 mt-0 number">
-                      <em className="count">16+</em>
+                      <em className="count">51+</em>
                     </h3>
                     <p className="mb-0">GitHub Repositories</p>
                   </div>
@@ -448,7 +448,7 @@ export default function Home() {
                   <span className="icon icon-people" />
                   <div className="details">
                     <h3 className="mb-0 mt-0 number">
-                      <em className="count">20+</em>
+                      <em className="count">23+</em>
                     </h3>
                     <p className="mb-0">Projects Completed</p>
                   </div>
@@ -576,7 +576,7 @@ export default function Home() {
                       <span className="time">2018 - 2019 </span>
                       <h3 className="title">Higher Secondary</h3>
                       <p>
-                      Completed my higher secondary education, laying a strong foundation in science and technology.
+                        Completed my higher secondary education, laying a strong foundation in science and technology.
                       </p>
                     </div>
                   </div>
@@ -594,7 +594,7 @@ export default function Home() {
                       <span className="time">2020 - 2024</span>
                       <h3 className="title">Bachelor’s Degree</h3>
                       <p>
-                      Pursuing a Bachelor’s in Business and IT, honing my skills in programming, web development, DevOps.
+                        Pursuing a Bachelor’s in Business and IT, honing my skills in programming, web development, DevOps.
                       </p>
                     </div>
                   </div>
@@ -612,7 +612,7 @@ export default function Home() {
                       <span className="time">2024 - Present</span>
                       <h3 className="title">Masters Degree</h3>
                       <p>
-                      Developed a solid academic foundation with a focus on analytical skills, and a passion for innovation.
+                        Developed a solid academic foundation with a focus on analytical skills, and a passion for innovation.
                       </p>
                     </div>
                   </div>
@@ -638,7 +638,7 @@ export default function Home() {
                       <span className="time">2024 - Present</span>
                       <h3 className="title">Full-Stack Developer</h3>
                       <p>
-                      Currently working as a Full-Stack Developer, building scalable web applications & systems.
+                        Currently working as a Full-Stack Developer, building scalable web applications & systems.
                       </p>
                     </div>
                   </div>
@@ -656,7 +656,7 @@ export default function Home() {
                       <span className="time">2022 - 2023</span>
                       <h3 className="title">Front-End Developer</h3>
                       <p>
-                      Worked as a Front-End Developer, specializing in creating responsive user interfaces using React.
+                        Worked as a Front-End Developer, specializing in creating responsive user interfaces using React.
                       </p>
                     </div>
                   </div>
@@ -674,7 +674,7 @@ export default function Home() {
                       <span className="time">2023 - 2024</span>
                       <h3 className="title">Back-End Developer</h3>
                       <p>
-                      Focused on building robust and efficient server-side applications, managing databases, APIs, DevOps.
+                        Focused on building robust and efficient server-side applications, managing databases, APIs, DevOps.
                       </p>
                     </div>
                   </div>
@@ -687,218 +687,252 @@ export default function Home() {
         </section>
 
         {/* section works */}
-     <section id="works">
-  <div className="container">
-    {/* section title */}
-    <h2 className="section-title wow fadeInUp" style={{visibility: 'visible', animationName: 'fadeInUp'}}>Recent works</h2>
-    <div className="spacer" data-height={60} style={{height: 60}} />
-    {/* portfolio filter (desktop) */}
-    <ul className="portfolio-filter list-inline wow fadeInUp" style={{visibility: 'visible', animationName: 'fadeInUp'}}>
-  <li className="list-inline-item current" data-filter="*">All</li>
-  <li className="list-inline-item" data-filter=".react">React.js</li>
-  <li className="list-inline-item" data-filter=".fullstack">Full Stack</li>  
-  <li className="list-inline-item" data-filter=".next">Next.js</li>
-  <li className="list-inline-item" data-filter=".htmlwithreact">Frontend</li>
-  <li className="list-inline-item" data-filter=".Backend">Backend</li>
-</ul>
+        <section id="works">
+          <div className="container">
+            {/* section title */}
+            <h2 className="section-title wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>Recent works</h2>
+            <div className="spacer" data-height={60} style={{ height: 60 }} />
+            {/* portfolio filter (desktop) */}
+            <ul className="portfolio-filter list-inline wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+              <li className="list-inline-item current" data-filter="*">All</li>
+              <li className="list-inline-item" data-filter=".android-ios">Android/IOS</li>
+              <li className="list-inline-item" data-filter=".react">React.js</li>
+              <li className="list-inline-item" data-filter=".fullstack">Full Stack</li>
+              <li className="list-inline-item" data-filter=".next">Next.js</li>
+              <li className="list-inline-item" data-filter=".htmlwithreact">Frontend</li>
+              <li className="list-inline-item" data-filter=".Backend">Backend</li>
+            </ul>
 
-    {/* portfolio filter (mobile) */}
-    <div className="pf-filter-wrapper">
-      <select className="portfolio-filter-mobile">
-        <option value="*">All</option>
-        <option value=".react">React.js</option>
-        <option value=".fullstack">Full Stack</option>
-        <option value=".next">Next.js</option>
-        <option value=".htmlwithreact">Frontend</option>
-        <option value=".Backend">Backend</option>
-      </select>
-    </div>
-    {/* portolio wrapper */}
-    <div className="row portfolio-wrapper" style={{position: 'relative', height: '892.575px'}}>
-      {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item fullstack Backend" style={{position: 'absolute', left: '0%', top: 0}}>
-  <a href="http://erp.abstarthr.in/" target="" rel="noopener noreferrer">
-    <div className="portfolio-item rounded shadow-dark">
-      <div className="details">
-        <span className="term">ERP</span>
-        <h4 className="title">ERP Management System</h4>
-        <span className="more-button"><i className="icon-link" /></span>
-      </div>
-      <div className="thumb">
-        <img src="assets/images/works/erp.png" alt="Portfolio-title" />
-        <div className="mask" />
-      </div>
-    </div>
-  </a>
-</div>
-
-      {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item creative design react htmlwithreact" style={{position: 'absolute', left: '33.3333%', top: 0}}>
-  <a href="https://intellicoder.in/" target="" rel="noopener noreferrer">
-    <div className="portfolio-item rounded shadow-dark">
-      <div className="details">
-        <span className="term">E-Learning</span>
-        <h4 className="title">E-Learning Coding Platform</h4>
-        <span className="more-button"><i className="icon-link" /></span>
-      </div>
-      <div className="thumb">
-        <img src="assets/images/works/jrcoders.png" alt="Portfolio-title" />
-        <div className="mask" />
-      </div>
-    </div>
-  </a>
-</div>
-
-      {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item branding react htmlwithreact" style={{position: 'absolute', left: '66.6667%', top: 0}}>
-  <a href="https://shivkrishna-institute.vercel.app/" target="" rel="noopener noreferrer">
-    <div className="portfolio-item rounded shadow-dark ">
-      <div className="details">
-        <span className="term">institute</span>
-        <h4 className="title">Digital Learning institute</h4>
-        <span className="more-button"><i className="icon-link" /></span>
-      </div>
-      <div className="thumb">
-        <img src="assets/images/works/shivkrishna.png" alt="Portfolio-title" />
-        <div className="mask" />
-      </div>
-    </div>
-  </a>
-</div>
-
-      {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item creative react htmlwithreact" style={{position: 'absolute', left: '0%', top: 297}}>
-  <a href="https://friends-gym.vercel.app/" target="" rel="noopener noreferrer">
-    <div className="portfolio-item rounded shadow-dark">
-      <div className="details">
-        <span className="term">Fitness</span>
-        <h4 className="title">Fitness Center</h4>
-        <span className="more-button"><i className="icon-link" /></span>
-      </div>
-      <div className="thumb">
-        <img src="assets/images/works/friendsgym.png" alt="Portfolio-title" />
-        <div className="mask" />
-      </div>
-    </div>
-  </a>
-</div>
-
-      {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item art branding next" style={{position: 'absolute', left: '33.3333%', top: 297}}>
-        <a href="https://web-agency-sooty.vercel.app/" target="" rel="noopener noreferrer">
-          <div className="portfolio-item rounded shadow-dark">
-            <div className="details">
-              <span className="term">Web Agency</span>
-              <h4 className="title">Information technology Agency</h4>
-              <span className="more-button"><i className="icon-link" /></span>
+            {/* portfolio filter (mobile) */}
+            <div className="pf-filter-wrapper">
+              <select className="portfolio-filter-mobile">
+                <option value="*">All</option>
+                <option value="android-ios">Android/IOS</option>
+                <option value=".react">React.js</option>
+                <option value=".fullstack">Full Stack</option>
+                <option value=".next">Next.js</option>
+                <option value=".htmlwithreact">Frontend</option>
+                <option value=".Backend">Backend</option>
+              </select>
             </div>
-            <div className="thumb">
-              <img src="assets/images/works/webagency.png" alt="Portfolio-title" />
-              <div className="mask" />
-            </div>
-          </div>
-        </a>
-        {/* <div id="gallery-1" className="gallery mfp-hide">
+            {/* portolio wrapper */}
+            <div className="row portfolio-wrapper">
+              {/* portfolio item */}
+              <div className="col-md-4 col-sm-6 grid-item fullstack Backend">
+                <a href="https://www.ipshopy.com/index.php?route=common/home" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">ipshopy</span>
+                      <h4 className="title">multi seller e-commerce platform</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/ipshopy-desktop.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-md-4 col-sm-6 grid-item fullstack Backend">
+                <a href="http://erp.abstarthr.in/" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">ERP</span>
+                      <h4 className="title">ERP Management System</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/erp.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              {/* portfolio item */}
+              <div className="col-md-4 col-sm-6 grid-item fullstack Backend android-ios">
+                <a href="https://play.google.com/store/apps/details?id=com.ipshopy.ipshopy" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">ipshopy</span>
+                      <h4 className="title">ipshopy Android App</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/ipshopy-android.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              {/* portfolio item */}
+              <div className="col-md-4 col-sm-6 grid-item creative design react htmlwithreact">
+                <a href="https://intellicoder.in/" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">E-Learning</span>
+                      <h4 className="title">E-Learning Coding Platform</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/jrcoders.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              {/* portfolio item */}
+              <div className="col-md-4 col-sm-6 grid-item branding react htmlwithreact">
+                <a href="https://shivkrishna-institute.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark ">
+                    <div className="details">
+                      <span className="term">institute</span>
+                      <h4 className="title">Digital Learning institute</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/shivkrishna.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              {/* portfolio item */}
+              <div className="col-md-4 col-sm-6 grid-item creative react htmlwithreact">
+                <a href="https://friends-gym.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">Fitness</span>
+                      <h4 className="title">Fitness Center</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/friendsgym.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              {/* portfolio item */}
+              <div className="col-md-4 col-sm-6 grid-item art branding next">
+                <a href="https://web-agency-sooty.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">Web Agency</span>
+                      <h4 className="title">Information technology Agency</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/webagency.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+                {/* <div id="gallery-1" className="gallery mfp-hide">
           <a href="assets/images/works/5.svg" />
           <a href="assets/images/works/4.svg" />
         </div> */}
-      </div>
-      {/* portfolio item */}
-      <div className="col-md-4 col-sm-6 grid-item creative design react htmlwithreact" style={{position: 'absolute', left: '66.6667%', top: 297}}>
-      <a href="https://creative-agency-sooty-mu.vercel.app/" target="" rel="noopener noreferrer">
+              </div>
+              {/* portfolio item */}
+              <div className="col-md-4 col-sm-6 grid-item creative design react htmlwithreact">
+                <a href="https://creative-agency-sooty-mu.vercel.app/" target="_blank" rel="noopener noreferrer">
 
-          <div className="portfolio-item rounded shadow-dark">
-            <div className="details">
-              <span className="term">Creative, Design</span>
-              <h4 className="title">Digital Web App, Mobile App Development Agency</h4>
-              <span className="more-button"><i className="icon-link" /></span>
-            </div>
-            <div className="thumb">
-              <img src="assets/images/works/designagency.png" alt="Portfolio-title" />
-              <div className="mask" />
-            </div>
-          </div>
-        </a>
-      </div>
-      <div className="col-md-4 col-sm-6 grid-item art react htmlwithreact" style={{position: 'absolute', left: '0%', top: 595}}>
-        <a href="https://sam-portfolio-seven.vercel.app/" target="" rel="noopener noreferrer">
-          <div className="portfolio-item rounded shadow-dark">
-            <div className="details">
-              <span className="term">Portfolio</span>
-              <h4 className="title">Classic Portfolio</h4>
-              <span className="more-button"><i className="icon-link" /></span>
-            </div>
-            <div className="thumb">
-              <img src="assets/images/works/aileenportfolio.png" alt="Portfolio-title" />
-              <div className="mask" />
-            </div>
-          </div>
-        </a>
-      </div><div className="col-md-4 col-sm-6 grid-item creative design react htmlwithreact" style={{position: 'absolute', left: '33.3333%', top: 595}}>
-      <a href="https://redux-toolkit-to-do-kappa.vercel.app/" target="" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">Creative, Design</span>
+                      <h4 className="title">Digital Web App, Mobile App Development Agency</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/designagency.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-md-4 col-sm-6 grid-item art react htmlwithreact">
+                <a href="https://sam-portfolio-seven.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">Portfolio</span>
+                      <h4 className="title">Classic Portfolio</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/aileenportfolio.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div><div className="col-md-4 col-sm-6 grid-item creative design react htmlwithreact">
+                <a href="https://redux-toolkit-to-do-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">
 
-          <div className="portfolio-item rounded shadow-dark">
-            <div className="details">
-              <span className="term">To-Do</span>
-              <h4 className="title">Redux ToolKit To-Do</h4>
-              <span className="more-button"><i className="icon-link" /></span>
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">To-Do</span>
+                      <h4 className="title">Redux ToolKit To-Do</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/reduxtodo.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+                <div id="small-dialog" className="white-popup zoom-anim-dialog mfp-hide">
+                  <img src="assets/images/single-work.svg" alt="Title" />
+                  <h2>Guest App Walkthrough Screens</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
+                  <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
+                  <a href="#!" className="btn btn-default">View on Dribbble</a>
+                </div>
+              </div>
+              {/* <div className="col-md-4 col-sm-6 grid-item branding react htmlwithreact">
+                <a href="https://portfolio-eight-taupe-19.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">Portfolio</span>
+                      <h4 className="title">Personal Porfolio</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/samportfolio.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div> */}
+              <div className="col-md-4 col-sm-6 grid-item fullstack Backend next">
+                <a href="#!" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">X Clone</span>
+                      <h4 className="title">X Clone</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/xclone.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
-            <div className="thumb">
-              <img src="assets/images/works/reduxtodo.png" alt="Portfolio-title" />
-              <div className="mask" />
-            </div>
+            {/* more button */}
           </div>
-        </a>
-        <div id="small-dialog" className="white-popup zoom-anim-dialog mfp-hide">
-          <img src="assets/images/single-work.svg" alt="Title" />
-          <h2>Guest App Walkthrough Screens</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
-          <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
-          <a href="#" className="btn btn-default">View on Dribbble</a>
-        </div>
-      </div>
-      <div className="col-md-4 col-sm-6 grid-item branding react htmlwithreact" style={{position: 'absolute', left: '66.6667%', top: 595}}>
-        <a href="https://portfolio-eight-taupe-19.vercel.app/" target="" rel="noopener noreferrer">
-          <div className="portfolio-item rounded shadow-dark">
-            <div className="details">
-              <span className="term">Portfolio</span>
-              <h4 className="title">Personal Porfolio</h4>
-              <span className="more-button"><i className="icon-link" /></span>
-            </div>
-            <div className="thumb">
-              <img src="assets/images/works/samportfolio.png" alt="Portfolio-title" />
-              <div className="mask" />
-            </div>
-          </div>
-        </a>
-      </div>
-      <div className="col-md-4 col-sm-6 grid-item fullstack Backend next" style={{position: 'absolute', left: '33.3333%', top: 0}}>
-  <a href="#" target="" rel="noopener noreferrer">
-    <div className="portfolio-item rounded shadow-dark">
-      <div className="details">
-        <span className="term">X Clone</span>
-        <h4 className="title">X Clone</h4>
-        <span className="more-button"><i className="icon-link" /></span>
-      </div>
-      <div className="thumb">
-        <img src="assets/images/works/xclone.png" alt="Portfolio-title" />
-        <div className="mask" />
-      </div>
-    </div>
-  </a>
-</div>
-      </div>
-    {/* more button */}
-  </div>
-</section>
+        </section>
 
 
 
         {/* section prices */}
         {/* <section id="prices">
           <div className="container"> */}
-            {/* section title */}
-            {/* <h2
+        {/* section title */}
+        {/* <h2
               className="section-title wow fadeIn"
               style={{ visibility: "visible", animationName: "fadeIn" }}
             >
@@ -907,8 +941,8 @@ export default function Home() {
             <div className="spacer" data-height={60} style={{ height: 60 }} />
             <div className="row">
               <div className="col-md-4 pr-md-0 mt-md-4 mt-0"> */}
-                {/* price item */}
-                {/* <div className="price-item bg-dark rounded shadow-light text-center">
+        {/* price item */}
+        {/* <div className="price-item bg-dark rounded shadow-light text-center">
                   <img src="assets/images/price-1.svg" alt="Regular" />
                   <h2 className="plan">Basic</h2>
                   <p>A Simple option but powerful to manage your business</p>
@@ -922,8 +956,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 px-md-0 my-4 my-md-0"> */}
-                {/* price item recommended*/}
-                {/* <div className="price-item bg-dark rounded shadow-light text-center best">
+        {/* price item recommended*/}
+        {/* <div className="price-item bg-dark rounded shadow-light text-center best">
                   <span className="badge">Recommended</span>
                   <img src="assets/images/price-2.svg" alt="Premium" />
                   <h2 className="plan">Premium</h2>
@@ -941,8 +975,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 pl-md-0 mt-md-4 mt-0"> */}
-                {/* price item */}
-                {/* <div className="price-item bg-dark rounded shadow-light text-center">
+        {/* price item */}
+        {/* <div className="price-item bg-dark rounded shadow-light text-center">
                   <img src="assets/images/price-3.svg" alt="Ultimate" />
                   <h2 className="plan">Ultimate</h2>
                   <p>A wise option for large companies and individuals</p>
@@ -1053,12 +1087,12 @@ export default function Home() {
                     </div>
                     <h4 className="mt-3 mb-0">Peter Yetes</h4>
                     <span className="subtitle">
-                    Freelance Client
+                      Freelance Client
                     </span>
                     <div className="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4">
                       <p className="mb-0">
-                      I enjoy working with sahil and learn so much. You
-                      guys make the process fun and interesting. Good luck! 🔥
+                        I enjoy working with sahil and learn so much. You
+                        guys make the process fun and interesting. Good luck! 🔥
                       </p>
                     </div>
                   </div>
@@ -1130,7 +1164,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            
+
           </div>
         </section>
 
@@ -1244,101 +1278,101 @@ export default function Home() {
 
         {/* section contact */}
         <section id="contact">
-      <div className="container">
-        {/* section title */}
-        <h2 className="section-title wow fadeInUp" style={{ visibility: "visible", animationName: "fadeInUp" }}>
-          Get In Touch
-        </h2>
-        <div className="spacer" data-height={60} style={{ height: 60 }} />
-        <div className="row">
-          <div className="col-md-4">
-            {/* contact info */}
-            <div className="contact-info">
-              <h3 className="wow fadeInUp" style={{ visibility: "visible", animationName: "fadeInUp" }}>
-                Let's talk about everything!
-              </h3>
-              <p className="wow fadeInUp" style={{ visibility: "visible", animationName: "fadeInUp" }}>
-                Don't like forms? Send me an{" "}
-                <a href="mailto:itsmesahil357@gmail.com">email</a>. 👋
-              </p>
-            </div>
-          </div>
-          <div className="col-md-8">
-            {/* Contact Form */}
-            <form id="contact-form" className="contact-form mt-6" onSubmit={handleSubmit} noValidate>
-              <div className="messages" />
-              <div className="row">
-                <div className="column col-md-6">
-                  {/* Name input */}
-                  <div className="form-group">
-                    <input
-                      type="text"
-                      className="form-control"
-                      name="name"
-                      placeholder="Your name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                    />
-                    <div className="help-block with-errors" />
-                  </div>
-                </div>
-                <div className="column col-md-6">
-                  {/* Email input */}
-                  <div className="form-group">
-                    <input
-                      type="email"
-                      className="form-control"
-                      name="email"
-                      placeholder="Email address"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                    />
-                    <div className="help-block with-errors" />
-                  </div>
-                </div>
-                <div className="column col-md-12">
-                  {/* Subject input */}
-                  <div className="form-group">
-                    <input
-                      type="text"
-                      className="form-control"
-                      name="subject"
-                      placeholder="Subject"
-                      value={formData.subject}
-                      onChange={handleChange}
-                      required
-                    />
-                    <div className="help-block with-errors" />
-                  </div>
-                </div>
-                <div className="column col-md-12">
-                  {/* Message textarea */}
-                  <div className="form-group">
-                    <textarea
-                      name="message"
-                      className="form-control"
-                      rows={5}
-                      placeholder="Message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                    />
-                    <div className="help-block with-errors" />
-                  </div>
+          <div className="container">
+            {/* section title */}
+            <h2 className="section-title wow fadeInUp" style={{ visibility: "visible", animationName: "fadeInUp" }}>
+              Get In Touch
+            </h2>
+            <div className="spacer" data-height={60} style={{ height: 60 }} />
+            <div className="row">
+              <div className="col-md-4">
+                {/* contact info */}
+                <div className="contact-info">
+                  <h3 className="wow fadeInUp" style={{ visibility: "visible", animationName: "fadeInUp" }}>
+                    Let's talk about everything!
+                  </h3>
+                  <p className="wow fadeInUp" style={{ visibility: "visible", animationName: "fadeInUp" }}>
+                    Don't like forms? Send me an{" "}
+                    <a href="mailto:itsmesahil357@gmail.com">email</a>. 👋
+                  </p>
                 </div>
               </div>
-              <button type="submit" className="btn btn-default">
-                Send Message
-              </button>
-              {/* Send Button */}
-            </form>
-            {/* Contact Form end */}
+              <div className="col-md-8">
+                {/* Contact Form */}
+                <form id="contact-form" className="contact-form mt-6" onSubmit={handleSubmit} noValidate>
+                  <div className="messages" />
+                  <div className="row">
+                    <div className="column col-md-6">
+                      {/* Name input */}
+                      <div className="form-group">
+                        <input
+                          type="text"
+                          className="form-control"
+                          name="name"
+                          placeholder="Your name"
+                          value={formData.name}
+                          onChange={handleChange}
+                          required
+                        />
+                        <div className="help-block with-errors" />
+                      </div>
+                    </div>
+                    <div className="column col-md-6">
+                      {/* Email input */}
+                      <div className="form-group">
+                        <input
+                          type="email"
+                          className="form-control"
+                          name="email"
+                          placeholder="Email address"
+                          value={formData.email}
+                          onChange={handleChange}
+                          required
+                        />
+                        <div className="help-block with-errors" />
+                      </div>
+                    </div>
+                    <div className="column col-md-12">
+                      {/* Subject input */}
+                      <div className="form-group">
+                        <input
+                          type="text"
+                          className="form-control"
+                          name="subject"
+                          placeholder="Subject"
+                          value={formData.subject}
+                          onChange={handleChange}
+                          required
+                        />
+                        <div className="help-block with-errors" />
+                      </div>
+                    </div>
+                    <div className="column col-md-12">
+                      {/* Message textarea */}
+                      <div className="form-group">
+                        <textarea
+                          name="message"
+                          className="form-control"
+                          rows={5}
+                          placeholder="Message"
+                          value={formData.message}
+                          onChange={handleChange}
+                          required
+                        />
+                        <div className="help-block with-errors" />
+                      </div>
+                    </div>
+                  </div>
+                  <button type="submit" className="btn btn-default">
+                    Send Message
+                  </button>
+                  {/* Send Button */}
+                </form>
+                {/* Contact Form end */}
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
         <div className="spacer" data-height={96} style={{ height: 96 }} />
       </main>
