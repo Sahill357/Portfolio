@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -19,13 +18,6 @@ function loadScript(src) {
     document.body.appendChild(script);
   });
 }
-
-=======
-import React, { useState } from "react";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-
->>>>>>> 4c497fa1626c2eae390c274c185e394de31fe124
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
@@ -34,7 +26,6 @@ export default function Home() {
     message: '',
   });
 
-<<<<<<< HEAD
   useEffect(() => {
     // Load scripts in order, then initialize everything
     const scripts = [
@@ -209,8 +200,6 @@ export default function Home() {
     loadAll();
   }, []);
 
-=======
->>>>>>> 4c497fa1626c2eae390c274c185e394de31fe124
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -909,19 +898,11 @@ export default function Home() {
               <select className="portfolio-filter-mobile">
                 <option value="*">All</option>
                 <option value="android-ios">Android/IOS</option>
-<<<<<<< HEAD
                 <option value="react">React.js</option>
                 <option value="fullstack">Full Stack</option>
                 <option value="next">Next.js</option>
                 <option value="htmlwithreact">Frontend</option>
                 <option value="Backend">Backend</option>
-=======
-                <option value=".react">React.js</option>
-                <option value=".fullstack">Full Stack</option>
-                <option value=".next">Next.js</option>
-                <option value=".htmlwithreact">Frontend</option>
-                <option value=".Backend">Backend</option>
->>>>>>> 4c497fa1626c2eae390c274c185e394de31fe124
               </select>
             </div>
             {/* portolio wrapper */}
