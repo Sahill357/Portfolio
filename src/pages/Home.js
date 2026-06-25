@@ -1,6 +1,49 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+// Animated counter that counts up when it scrolls into view
+function AnimatedCounter({ target, suffix = "" }) {
+  const [count, setCount] = useState(0);
+  const ref = useRef(null);
+  const started = useRef(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !started.current) {
+          started.current = true;
+          const duration = 2000;
+          const steps = 60;
+          const increment = target / steps;
+          let current = 0;
+          const interval = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+              setCount(target);
+              clearInterval(interval);
+            } else {
+              setCount(Math.floor(current));
+            }
+          }, duration / steps);
+        }
+      },
+      { threshold: 0.3 }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [target]);
+
+  return (
+    <span ref={ref}>
+      {count}{suffix}
+    </span>
+  );
+}
 
 // Helper: load an external script and resolve when ready
 function loadScript(src) {
@@ -32,7 +75,6 @@ export default function Home() {
       "assets/js/jquery-1.12.3.min.js",
       "assets/js/jquery.easing.min.js",
       "assets/js/jquery.waypoints.min.js",
-      "assets/js/jquery.counterup.min.js",
       "assets/js/popper.min.js",
       "assets/js/bootstrap.min.js",
       "assets/js/isotope.pkgd.min.js",
@@ -127,11 +169,6 @@ export default function Home() {
           separator: ",",
           speed: 4000,
         });
-      }
-
-      // ── CounterUp ────────────────────────────────────────────
-      if (jq.fn.counterUp) {
-        jq(".count").counterUp({ delay: 10, time: 2000 });
       }
 
       // ── Progress Bars with Waypoint ──────────────────────────
@@ -500,13 +537,10 @@ export default function Home() {
                     <div className="col-md-6">
                       {/* about text */}
                       <p>
-                        I am Sahil, Full stack developer from
-                        Maharashtra, India. I have rich experience in web
-                        Development and UI/UX and DevOps, also I am currently
-                        exploring new things.
+                        Software Developer from Maharashtra, India, specializing in modern web and mobile applications. Experienced in frontend and backend development, UI/UX design, and DevOps. Passionate about building scalable, user-focused products and continuously learning new technologies to create impactful digital experiences.
                       </p>
                       <div className="mt-3">
-                        <a href="https://drive.google.com/file/d/110TbsESYlYfaOmzcwkF_aDKgxfB6xViv/view?usp=sharing" className="btn btn-default">
+                        <a href="https://drive.google.com/file/d/1dBVyC_Rpv-wOllUHC-Wqou7npdqEgWQX/view?usp=sharing" className="btn btn-default">
                           Download CV
                         </a>
                       </div>
@@ -604,7 +638,7 @@ export default function Home() {
                   <span className="icon icon-fire" />
                   <div className="details">
                     <h3 className="mb-0 mt-0 number">
-                      <em className="count">485+</em>
+                      <AnimatedCounter target={485} suffix="+" />
                     </h3>
                     <p className="mb-0">DSA Problem Solved</p>
                   </div>
@@ -621,7 +655,7 @@ export default function Home() {
                   <span className="icon icon-cup" />
                   <div className="details">
                     <h3 className="mb-0 mt-0 number">
-                      <em className="count">51+</em>
+                      <AnimatedCounter target={51} suffix="+" />
                     </h3>
                     <p className="mb-0">GitHub Repositories</p>
                   </div>
@@ -638,7 +672,7 @@ export default function Home() {
                   <span className="icon icon-people" />
                   <div className="details">
                     <h3 className="mb-0 mt-0 number">
-                      <em className="count">23+</em>
+                      <AnimatedCounter target={23} suffix="+" />
                     </h3>
                     <p className="mb-0">Projects Completed</p>
                   </div>
@@ -655,7 +689,7 @@ export default function Home() {
                   <span className="icon icon-badge" />
                   <div className="details">
                     <h3 className="mb-0 mt-0 number">
-                      <em className="count">100%</em>
+                      <AnimatedCounter target={100} suffix="%" />
                     </h3>
                     <p className="mb-0">Quality Code</p>
                   </div>
@@ -705,7 +739,7 @@ export default function Home() {
                   style={{ backgroundColor: "rgb(249, 215, 76)" }}
                 >
                   <img src="assets/images/service-2.svg" alt="UI/UX design" />
-                  <h3 className="mb-3 mt-0">Web Development</h3>
+                  <h3 className="mb-3 mt-0">Software Development</h3>
                   <p className="mb-0">
                     Ensuring the website adheres to industry standards while
                     keeping it properly maintained and up to date.
@@ -725,7 +759,7 @@ export default function Home() {
                   style={{ backgroundColor: "rgb(249, 123, 139)" }}
                 >
                   <img src="assets/images/service-3.svg" alt="UI/UX design" />
-                  <h3 className="mb-3 mt-0">DevOps</h3>
+                  <h3 className="mb-3 mt-0">DevOps/Cloud</h3>
                   <p className="mb-0">
                     Overseeing infrastructure for seamless CI/CD, ensuring
                     system reliability and monitoring and performance.
