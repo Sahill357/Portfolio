@@ -477,109 +477,50 @@ export default function Home() {
             </h2>
             <div className="spacer" data-height={60} style={{ height: 60 }} />
             <div className="row">
-              <div className="col-md-3">
-                <div className="text-center text-md-left">
-                  {/* avatar image */}
-                  <img src="assets/images/this.png" alt="Bolby" />
-                </div>
-                <div
-                  className="spacer d-md-none d-lg-none"
-                  data-height={30}
-                  style={{ height: 30 }}
-                />
-              </div>
-              <div className="col-md-9 triangle-left-md triangle-top-sm">
+              <div className="col-md-12">
                 <div className="rounded bg-dark shadow-light padding-30">
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                       {/* about text */}
-                      <p>
-                        Software Developer from Maharashtra, India, specializing in modern web and mobile applications. Experienced in frontend and backend development, UI/UX design, and DevOps. Passionate about building scalable, user-focused products and continuously learning new technologies to create impactful digital experiences.
+                      <p className="lead mb-3" style={{ fontSize: "17px", lineHeight: "1.8", color: "#f8f9fa", fontWeight: 500 }}>
+                        I'm Sahil 👋, a backend developer from Maharashtra who gets excited about making complex systems simple, robust, and fast.
                       </p>
-                      <div className="mt-3">
-                        <a href="https://drive.google.com/file/d/1dBVyC_Rpv-wOllUHC-Wqou7npdqEgWQX/view?usp=sharing" className="btn btn-default">
+
+                      <p className="mb-3" style={{ fontSize: "15px", lineHeight: "1.85", color: "#dcdde1" }}>
+                        Primarily into <strong className="text-white">backend engineering and system design</strong> — Node.js, Express, PostgreSQL, Redis. My journey started with pure curiosity about how things work under the hood, and that pulled me deeper into distributed systems and, more recently, AI/ML. I like solving real engineering problems by focusing on what actually breaks at scale — <strong className="text-white">performance, caching, and reliability</strong> — not just making something "work."
+                      </p>
+
+                      <p className="mb-3" style={{ fontSize: "15px", lineHeight: "1.85", color: "#dcdde1" }}>
+                        What stays consistent is shipping things end-to-end, learning in public, and asking better questions than I had yesterday.
+                      </p>
+
+                      <p className="mb-4" style={{ fontSize: "15px", lineHeight: "1.85", color: "#dcdde1" }}>
+                        Currently exploring <strong className="text-white">AI Engineering</strong> — RAG pipelines, autonomous agents, and LLM-powered backend systems. When I'm not building, you'll find me gaming 🎮 or hacking on side projects.
+                      </p>
+
+                      {/* tech focus tags */}
+                      <div className="d-flex flex-wrap mb-4" style={{ gap: "10px" }}>
+                        <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", padding: "6px 14px", borderRadius: "20px", background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", fontSize: "13px", color: "#f1f2f6" }}>
+                          <i className="fab fa-node-js" style={{ color: "#68a063" }}></i> Node.js & Express
+                        </span>
+                        <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", padding: "6px 14px", borderRadius: "20px", background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", fontSize: "13px", color: "#f1f2f6" }}>
+                          <i className="fas fa-database" style={{ color: "#336791" }}></i> PostgreSQL & Redis
+                        </span>
+                        <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", padding: "6px 14px", borderRadius: "20px", background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", fontSize: "13px", color: "#f1f2f6" }}>
+                          <i className="fas fa-network-wired" style={{ color: "#FFD15C" }}></i> System Design
+                        </span>
+                        <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", padding: "6px 14px", borderRadius: "20px", background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", fontSize: "13px", color: "#f1f2f6" }}>
+                          <i className="fas fa-brain" style={{ color: "#6C6CE5" }}></i> AI / RAG & LLMs
+                        </span>
+                        <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", padding: "6px 14px", borderRadius: "20px", background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", fontSize: "13px", color: "#f1f2f6" }}>
+                          <i className="fas fa-tachometer-alt" style={{ color: "#FF4C60" }}></i> Scalability & Caching
+                        </span>
+                      </div>
+
+                      <div className="mt-2">
+                        <a href="https://drive.google.com/file/d/1p0wOAGc8TY23NQAA5n1AAF-BtSge1GCS/view?usp=sharing" className="btn btn-default" target="_blank" rel="noopener noreferrer">
                           Download CV
                         </a>
-                      </div>
-                      <div
-                        className="spacer d-md-none d-lg-none"
-                        data-height={30}
-                        style={{ height: 30 }}
-                      />
-                    </div>
-                    <div className="col-md-6">
-                      {/* skill item */}
-                      <div className="skill-item">
-                        <div className="skill-info clearfix">
-                          <h4 className="float-left mb-3 mt-0">Development</h4>
-                          <span className="float-right">95%</span>
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar data-background"
-                            role="progressbar"
-                            aria-valuemin={0}
-                            aria-valuemax={100}
-                            aria-valuenow={85}
-                            data-color="#FFD15C"
-                            style={{
-                              backgroundColor: "rgb(255, 209, 92)",
-                              width: "95%",
-                            }}
-                          ></div>
-                        </div>
-                        <div
-                          className="spacer"
-                          data-height={20}
-                          style={{ height: 20 }}
-                        />
-                      </div>
-                      {/* skill item */}
-                      <div className="skill-item">
-                        <div className="skill-info clearfix">
-                          <h4 className="float-left mb-3 mt-0">UI/UX design</h4>
-                          <span className="float-right">85%</span>
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar data-background"
-                            role="progressbar"
-                            aria-valuemin={0}
-                            aria-valuemax={100}
-                            aria-valuenow={95}
-                            data-color="#FF4C60"
-                            style={{
-                              backgroundColor: "rgb(255, 76, 96)",
-                              width: "85%",
-                            }}
-                          ></div>
-                        </div>
-                        <div
-                          className="spacer"
-                          data-height={20}
-                          style={{ height: 20 }}
-                        />
-                      </div>
-                      {/* skill item */}
-                      <div className="skill-item">
-                        <div className="skill-info clearfix">
-                          <h4 className="float-left mb-3 mt-0">DevOps</h4>
-                          <span className="float-right">80%</span>
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar data-background"
-                            role="progressbar"
-                            aria-valuemin={0}
-                            aria-valuemax={100}
-                            aria-valuenow={70}
-                            data-color="#6C6CE5"
-                            style={{
-                              backgroundColor: "rgb(108, 108, 229)",
-                              width: "80%",
-                            }}
-                          ></div>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -607,63 +548,8 @@ export default function Home() {
             </h2>
             <div className="spacer" data-height={60} style={{ height: 60 }} />
             <div className="row">
-              <div className="col-md-6">
-                {/* timeline wrapper */}
-                <div className="timeline edu bg-dark rounded shadow-light padding-30 overflow-hidden">
-                  {/* timeline item */}
-                  <div
-                    className="timeline-container wow fadeInUp"
-                    style={{ visibility: "visible", animationName: "fadeInUp" }}
-                  >
-                    <div className="content">
-                      <span className="time">2018 - 2019 </span>
-                      <h3 className="title">Higher Secondary</h3>
-                      <p>
-                        Completed my higher secondary education, laying a strong foundation in science and technology.
-                      </p>
-                    </div>
-                  </div>
-                  {/* timeline item */}
-                  <div
-                    className="timeline-container wow fadeInUp"
-                    data-wow-delay="0.2s"
-                    style={{
-                      visibility: "visible",
-                      animationDelay: "0.2s",
-                      animationName: "fadeInUp",
-                    }}
-                  >
-                    <div className="content">
-                      <span className="time">2020 - 2024</span>
-                      <h3 className="title">Bachelor’s Degree</h3>
-                      <p>
-                        Pursuing a Bachelor’s in Business and IT, honing my skills in programming, web development, DevOps.
-                      </p>
-                    </div>
-                  </div>
-                  {/* timeline item */}
-                  <div
-                    className="timeline-container wow fadeInUp"
-                    data-wow-delay="0.4s"
-                    style={{
-                      visibility: "visible",
-                      animationDelay: "0.4s",
-                      animationName: "fadeInUp",
-                    }}
-                  >
-                    <div className="content">
-                      <span className="time">2024 - Present</span>
-                      <h3 className="title">Masters Degree</h3>
-                      <p>
-                        Developed a solid academic foundation with a focus on analytical skills, and a passion for innovation.
-                      </p>
-                    </div>
-                  </div>
-                  {/* main line */}
-                  <span className="line" />
-                </div>
-              </div>
-              <div className="col-md-6">
+
+              <div className="col-md-12">
                 {/* responsive spacer */}
                 <div
                   className="spacer d-md-none d-lg-none"
@@ -672,20 +558,36 @@ export default function Home() {
                 />
                 {/* timeline wrapper */}
                 <div className="timeline exp bg-dark rounded shadow-light padding-30 overflow-hidden">
-                  {/* timeline item */}
+                  {/* timeline item 1 */}
                   <div
                     className="timeline-container wow fadeInUp"
                     style={{ visibility: "visible", animationName: "fadeInUp" }}
                   >
                     <div className="content">
-                      <span className="time">2024 - Present</span>
-                      <h3 className="title">Full-Stack Developer</h3>
-                      <p>
-                        Currently working as a Full-Stack Developer, building scalable web applications & systems.
-                      </p>
+                      <span className="time">May 2025 – Present</span>
+                      <h3 className="title mb-1">
+                        Backend Engineer{" "}
+                        <span style={{ fontSize: "16px", color: "#FF4C60", fontWeight: 500 }}>
+                          — ipshopy.com
+                        </span>{" "}
+                        <span style={{ fontSize: "11px", padding: "3px 8px", borderRadius: "12px", background: "rgba(255, 76, 96, 0.15)", color: "#FF4C60", fontWeight: 600 }}>
+                          Onsite
+                        </span>
+                      </h3>
+                      <ul style={{ paddingLeft: "18px", margin: "12px 0 0 0", color: "#dcdde1", lineHeight: "1.7", fontSize: "14px" }}>
+                        <li style={{ marginBottom: "6px" }}>Scaled backend microservices serving <strong className="text-white">17k+ users</strong>, improving Node.js response performance by 35% and maintaining 99.9% uptime.</li>
+                        <li style={{ marginBottom: "6px" }}>Built and secured <strong className="text-white">AWS infrastructure</strong> (EC2, Lambda, S3, EventBridge, ALB) with Nginx and load balancing to handle peak traffic.</li>
+                        <li style={{ marginBottom: "6px" }}>Designed secure REST APIs with <strong className="text-white">JWT authentication and RBAC</strong>, integrating 6+ enterprise partners and cutting onboarding time by 20%.</li>
+                        <li style={{ marginBottom: "6px" }}>Implemented <strong className="text-white">Redis caching</strong> across production services, reducing API latency and easing database load under high concurrency.</li>
+                        <li style={{ marginBottom: "6px" }}>Engineered production backend systems using <strong className="text-white">Node.js, Express, and PostgreSQL</strong>, focused on reliability and long-term maintainability.</li>
+                        <li style={{ marginBottom: "6px" }}>Deployed containerized services on <strong className="text-white">GCP with Kubernetes</strong>, streamlining rollouts and enabling zero-downtime deployments.</li>
+                        <li style={{ marginBottom: "6px" }}>Designed event-driven workflows (<strong className="text-white">CQRS</strong>) for order and inventory sync, reducing data inconsistency across services.</li>
+                        <li style={{ marginBottom: "0" }}>Set up monitoring and structured logging across microservices, cutting average incident diagnosis time significantly.</li>
+                      </ul>
                     </div>
                   </div>
-                  {/* timeline item */}
+
+                  {/* timeline item 2 */}
                   <div
                     className="timeline-container wow fadeInUp"
                     data-wow-delay="0.2s"
@@ -696,14 +598,27 @@ export default function Home() {
                     }}
                   >
                     <div className="content">
-                      <span className="time">2022 - 2023</span>
-                      <h3 className="title">Front-End Developer</h3>
-                      <p>
-                        Worked as a Front-End Developer, specializing in creating responsive user interfaces using React.
-                      </p>
+                      <span className="time">May 2023 – Apr 2025</span>
+                      <h3 className="title mb-1">
+                        Backend Developer{" "}
+                        <span style={{ fontSize: "16px", color: "#FFD15C", fontWeight: 500 }}>
+                          — DualSysco Research and Development
+                        </span>{" "}
+                        <span style={{ fontSize: "11px", padding: "3px 8px", borderRadius: "12px", background: "rgba(255, 209, 92, 0.15)", color: "#FFD15C", fontWeight: 600 }}>
+                          Onsite
+                        </span>
+                      </h3>
+                      <ul style={{ paddingLeft: "18px", margin: "12px 0 0 0", color: "#dcdde1", lineHeight: "1.7", fontSize: "14px" }}>
+                        <li style={{ marginBottom: "6px" }}>Implemented <strong className="text-white">Redis caching</strong>, reducing database load by 65% and API response times by 40%.</li>
+                        <li style={{ marginBottom: "6px" }}>Designed <strong className="text-white">ERD-driven data models</strong>, significantly improving data integrity across multiple services.</li>
+                        <li style={{ marginBottom: "6px" }}>Delivered automated CI/CD pipelines via <strong className="text-white">Docker and AWS</strong>, enabling same-day releases with rollback safety.</li>
+                        <li style={{ marginBottom: "6px" }}>Orchestrated Docker containers with <strong className="text-white">Kubernetes</strong> for scalable, highly available production systems.</li>
+                        <li style={{ marginBottom: "0" }}>Built background job queues using <strong className="text-white">Bull/Redis</strong>, handling asynchronous tasks without blocking main thread execution.</li>
+                      </ul>
                     </div>
                   </div>
-                  {/* timeline item */}
+
+                  {/* timeline item 3 */}
                   <div
                     className="timeline-container wow fadeInUp"
                     data-wow-delay="0.4s"
@@ -714,11 +629,22 @@ export default function Home() {
                     }}
                   >
                     <div className="content">
-                      <span className="time">2023 - 2024</span>
-                      <h3 className="title">Back-End Developer</h3>
-                      <p>
-                        Focused on building robust and efficient server-side applications, managing databases, APIs, DevOps.
-                      </p>
+                      <span className="time">Jan 2023 – Apr 2023</span>
+                      <h3 className="title mb-1">
+                        Software Development Intern{" "}
+                        <span style={{ fontSize: "16px", color: "#6C6CE5", fontWeight: 500 }}>
+                          — DualSysco Research and Development
+                        </span>{" "}
+                        <span style={{ fontSize: "11px", padding: "3px 8px", borderRadius: "12px", background: "rgba(108, 108, 229, 0.15)", color: "#6C6CE5", fontWeight: 600 }}>
+                          Onsite
+                        </span>
+                      </h3>
+                      <ul style={{ paddingLeft: "18px", margin: "12px 0 0 0", color: "#dcdde1", lineHeight: "1.7", fontSize: "14px" }}>
+                        <li style={{ marginBottom: "6px" }}>Built and deployed a full-stack application using <strong className="text-white">Node.js, Express.js, and MySQL</strong> on AWS.</li>
+                        <li style={{ marginBottom: "6px" }}>Implemented <strong className="text-white">JWT-based authentication</strong>, successfully securing 100% of API endpoints.</li>
+                        <li style={{ marginBottom: "6px" }}>Integrated third-party payment gateways via REST APIs and conducted rigorous end-to-end testing using Postman.</li>
+                        <li style={{ marginBottom: "0" }}>Developed RESTful APIs following clean code standards and <strong className="text-white">MVC architecture</strong> principles.</li>
+                      </ul>
                     </div>
                   </div>
                   {/* main line */}
@@ -1037,177 +963,7 @@ export default function Home() {
         </section> */}
 
         {/* section testimonials */}
-        <section id="testimonials">
-          <div className="container">
-            {/* section title */}
-            <h2
-              className="section-title wow fadeInUp"
-              style={{ visibility: "visible", animationName: "fadeInUp" }}
-            >
-              Testimonials
-            </h2>
-            <div className="spacer" data-height={60} style={{ height: 60 }} />
-            {/* testimonials wrapper */}
-            <div
-              className="testimonials-wrapper slick-initialized slick-slider slick-dotted"
-              role="toolbar"
-            >
-              {/* testimonial item */}
-              <div aria-live="polite" className="slick-list draggable">
-                <div
-                  className="slick-track"
-                  style={{
-                    opacity: 1,
-                    width: 2800,
-                    transform: "translate3d(-1400px, 0px, 0px)",
-                  }}
-                  role="listbox"
-                >
-                  <div
-                    className="testimonial-item text-center mx-auto slick-slide slick-cloned"
-                    data-slick-index={-1}
-                    aria-hidden="true"
-                    style={{ width: 700 }}
-                    tabIndex={-1}
-                  >
-                    <div className="thumb mb-3 mx-auto">
-                      <img
-                        src="assets/images/avatar-1.svg"
-                        alt="customer-name"
-                      />
-                    </div>
-                    <h4 className="mt-3 mb-0">Peter Yetes</h4>
-                    <span className="subtitle">
-                      Product designer at Dribbble
-                    </span>
-                    <div className="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4">
-                      <p className="mb-0">
-                        I enjoy working with the theme and learn so much. You
-                        guys make the process fun and interesting. Good luck! 🔥
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    className="testimonial-item text-center mx-auto slick-slide"
-                    data-slick-index={0}
-                    aria-hidden="true"
-                    style={{ width: 700 }}
-                    tabIndex={-1}
-                    role="option"
-                    aria-describedby="slick-slide00"
-                    aria-selected="false"
-                  >
-                    <div className="thumb mb-3 mx-auto">
-                      <img
-                        src="assets/images/avatar-3.svg"
-                        alt="customer-name"
-                      />
-                    </div>
-                    <h4 className="mt-3 mb-0">Peter Yetes</h4>
-                    <span className="subtitle">
-                      Product designer at Dribbble
-                    </span>
-                    <div className="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4">
-                      <p className="mb-0">
-                        I enjoy working with the theme and learn so much. You
-                        guys make the process fun and interesting. Good luck! 👍
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    className="testimonial-item text-center mx-auto slick-slide slick-current slick-active"
-                    data-slick-index={1}
-                    aria-hidden="false"
-                    style={{ width: 700 }}
-                    tabIndex={-1}
-                    role="option"
-                    aria-describedby="slick-slide01"
-                    aria-selected="true"
-                  >
-                    <div className="thumb mb-3 mx-auto">
-                      <img
-                        src="assets/images/avatar-1.svg"
-                        alt="customer-name"
-                      />
-                    </div>
-                    <h4 className="mt-3 mb-0">Peter Yetes</h4>
-                    <span className="subtitle">
-                      Freelance Client
-                    </span>
-                    <div className="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4">
-                      <p className="mb-0">
-                        I enjoy working with sahil and learn so much. You
-                        guys make the process fun and interesting. Good luck! 🔥
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    className="testimonial-item text-center mx-auto slick-slide slick-cloned"
-                    data-slick-index={2}
-                    aria-hidden="true"
-                    style={{ width: 700 }}
-                    tabIndex={-1}
-                  >
-                    <div className="thumb mb-3 mx-auto">
-                      <img
-                        src="assets/images/avatar-3.svg"
-                        alt="customer-name"
-                      />
-                    </div>
-                    <h4 className="mt-3 mb-0">John Doe</h4>
-                    <span className="subtitle">
-                      Product designer at Dribbble
-                    </span>
-                    <div className="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4">
-                      <p className="mb-0">
-                        I enjoy working with the theme and learn so much. You
-                        guys make the process fun and interesting. Good luck! 👍
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* testimonial item */}
-              <ul
-                className="slick-dots"
-                style={{ display: "block" }}
-                role="tablist"
-              >
-                <li
-                  className
-                  aria-hidden="true"
-                  role="presentation"
-                  aria-controls="navigation00"
-                  id="slick-slide00"
-                >
-                  <button
-                    type="button"
-                    data-role="none"
-                    tabIndex={0}
-                  >
-                    1
-                  </button>
-                </li>
-                <li
-                  aria-hidden="false"
-                  role="presentation"
-                  aria-controls="navigation01"
-                  id="slick-slide01"
-                  className="slick-active"
-                >
-                  <button
-                    type="button"
-                    data-role="none"
-                    tabIndex={0}
-                  >
-                    2
-                  </button>
-                </li>
-              </ul>
-            </div>
 
-          </div>
-        </section>
 
         {/* section blog */}
         <section id="blog">
