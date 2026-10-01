@@ -361,12 +361,12 @@ export default function Home() {
                 About
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#services" className="nav-link">
                 <i className="icon-briefcase" />
                 Services
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#experience" className="nav-link">
                 <i className="icon-graduation" />
@@ -630,151 +630,13 @@ export default function Home() {
               </div>
             </div>
             {/* row end */}
-            <div className="spacer" data-height={70} style={{ height: 70 }} />
-            <div className="row">
-              <div className="col-md-3 col-sm-6">
-                {/* fact item */}
-                <div className="fact-item">
-                  <span className="icon icon-fire" />
-                  <div className="details">
-                    <h3 className="mb-0 mt-0 number">
-                      <AnimatedCounter target={485} suffix="+" />
-                    </h3>
-                    <p className="mb-0">DSA Problem Solved</p>
-                  </div>
-                </div>
-                <div
-                  className="spacer d-md-none d-lg-none"
-                  data-height={30}
-                  style={{ height: 30 }}
-                />
-              </div>
-              <div className="col-md-3 col-sm-6">
-                {/* fact item */}
-                <div className="fact-item">
-                  <span className="icon icon-cup" />
-                  <div className="details">
-                    <h3 className="mb-0 mt-0 number">
-                      <AnimatedCounter target={51} suffix="+" />
-                    </h3>
-                    <p className="mb-0">GitHub Repositories</p>
-                  </div>
-                </div>
-                <div
-                  className="spacer d-md-none d-lg-none"
-                  data-height={30}
-                  style={{ height: 30 }}
-                />
-              </div>
-              <div className="col-md-3 col-sm-6">
-                {/* fact item */}
-                <div className="fact-item">
-                  <span className="icon icon-people" />
-                  <div className="details">
-                    <h3 className="mb-0 mt-0 number">
-                      <AnimatedCounter target={23} suffix="+" />
-                    </h3>
-                    <p className="mb-0">Projects Completed</p>
-                  </div>
-                </div>
-                <div
-                  className="spacer d-md-none d-lg-none"
-                  data-height={30}
-                  style={{ height: 30 }}
-                />
-              </div>
-              <div className="col-md-3 col-sm-6">
-                {/* fact item */}
-                <div className="fact-item">
-                  <span className="icon icon-badge" />
-                  <div className="details">
-                    <h3 className="mb-0 mt-0 number">
-                      <AnimatedCounter target={100} suffix="%" />
-                    </h3>
-                    <p className="mb-0">Quality Code</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div className="spacer" data-height={0} style={{ height: 0 }} />
+
           </div>
         </section>
 
         {/* section services */}
-        <section id="services">
-          <div className="container">
-            {/* section title */}
-            <h2
-              className="section-title wow fadeInUp"
-              style={{ visibility: "visible", animationName: "fadeInUp" }}
-            >
-              Services
-            </h2>
-            <div className="spacer" data-height={60} style={{ height: 60 }} />
-            <div className="row">
-              <div className="col-md-4">
-                {/* service box */}
-                <div
-                  className="service-box rounded data-background padding-30 text-center text-light shadow-blue"
-                  data-color="#6C6CE5"
-                  style={{ backgroundColor: "rgb(108, 108, 229)" }}
-                >
-                  <img src="assets/images/service-1.svg" alt="UI/UX design" />
-                  <h3 className="mb-3 mt-0">UI/UX design</h3>
-                  <p className="mb-0">
-                    Ensuring a seamless user experience by optimizing the
-                    website/mobile app for all devices and screen sizes.
-                  </p>
-                </div>
-                <div
-                  className="spacer d-md-none d-lg-none"
-                  data-height={30}
-                  style={{ height: 30 }}
-                />
-              </div>
-              <div className="col-md-4">
-                {/* service box */}
-                <div
-                  className="service-box rounded data-background padding-30 text-center shadow-yellow"
-                  data-color="#F9D74C"
-                  style={{ backgroundColor: "rgb(249, 215, 76)" }}
-                >
-                  <img src="assets/images/service-2.svg" alt="UI/UX design" />
-                  <h3 className="mb-3 mt-0">Software Development</h3>
-                  <p className="mb-0">
-                    Ensuring the website adheres to industry standards while
-                    keeping it properly maintained and up to date.
-                  </p>
-                </div>
-                <div
-                  className="spacer d-md-none d-lg-none"
-                  data-height={30}
-                  style={{ height: 30 }}
-                />
-              </div>
-              <div className="col-md-4">
-                {/* service box */}
-                <div
-                  className="service-box rounded data-background padding-30 text-center text-light shadow-pink"
-                  data-color="#F97B8B"
-                  style={{ backgroundColor: "rgb(249, 123, 139)" }}
-                >
-                  <img src="assets/images/service-3.svg" alt="UI/UX design" />
-                  <h3 className="mb-3 mt-0">DevOps/Cloud</h3>
-                  <p className="mb-0">
-                    Overseeing infrastructure for seamless CI/CD, ensuring
-                    system reliability and monitoring and performance.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="mt-5 text-center">
-              <p className="mb-0">
-                For any query? <a href="#contact">Click here</a> to contact me!
-                👋
-              </p>
-            </div>
-          </div>
-        </section>
+
 
         {/* section experience */}
         <section id="experience">
