@@ -368,16 +368,22 @@ export default function Home() {
             <div className="intro">
               {/* avatar image */}
               <img
-                src="assets/images/avatar-1.svg"
-                alt="Bolby"
-                className="mb-4"
+                src="assets/images/d1hve.jpg"
+                alt="Sahil Husen"
+                className="mb-4 rounded-circle"
+                style={{
+                  width: "108px",
+                  height: "108px",
+                  objectFit: "cover",
+                  borderRadius: "50%",
+                }}
               />
               {/* info */}
-              <h1 className="mb-2 mt-0">Sahil Shaikh</h1>
+              <h1 className="mb-2 mt-0">Sahil Husen</h1>
               <span>
 
                 <span className="text-rotating morphext">
-                  <span className="animated bounceIn">Software Engineer</span>
+                  <span className="animated bounceIn">Backend Engineer</span>
                 </span>
               </span>
               {/* social icons */}
@@ -483,7 +489,7 @@ export default function Home() {
                     <div className="col-md-12">
                       {/* about text */}
                       <p className="lead mb-3" style={{ fontSize: "17px", lineHeight: "1.8", color: "#f8f9fa", fontWeight: 500 }}>
-                        I'm Sahil 👋, a backend developer from Maharashtra who gets excited about making complex systems simple, robust, and fast.
+                        I'm Sahil 👋, a backend developer from Pune who gets excited about making complex systems simple, robust, and fast.
                       </p>
 
                       <p className="mb-3" style={{ fontSize: "15px", lineHeight: "1.85", color: "#dcdde1" }}>
@@ -664,24 +670,25 @@ export default function Home() {
             {/* portfolio filter (desktop) */}
             <ul className="portfolio-filter list-inline wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
               <li className="list-inline-item current" data-filter="*">All</li>
+              <li className="list-inline-item" data-filter=".Backend">Backend</li>
               <li className="list-inline-item" data-filter=".android-ios">Android/IOS</li>
-              <li className="list-inline-item" data-filter=".react">React.js</li>
+              <li className="list-inline-item" data-filter=".htmlwithreact">Frontend</li>
+
               <li className="list-inline-item" data-filter=".fullstack">Full Stack</li>
               <li className="list-inline-item" data-filter=".next">Next.js</li>
-              <li className="list-inline-item" data-filter=".htmlwithreact">Frontend</li>
-              <li className="list-inline-item" data-filter=".Backend">Backend</li>
+
             </ul>
 
             {/* portfolio filter (mobile) */}
             <div className="pf-filter-wrapper">
               <select className="portfolio-filter-mobile">
                 <option value="*">All</option>
+                <option value="Backend">Backend</option>
+                <option value="htmlwithreact">Frontend</option>
                 <option value="android-ios">Android/IOS</option>
-                <option value="react">React.js</option>
+
                 <option value="fullstack">Full Stack</option>
                 <option value="next">Next.js</option>
-                <option value="htmlwithreact">Frontend</option>
-                <option value="Backend">Backend</option>
               </select>
             </div>
             {/* portolio wrapper */}

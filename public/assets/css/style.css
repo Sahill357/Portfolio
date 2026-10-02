@@ -889,6 +889,12 @@ section.home .intro {
   position: relative;
   z-index: 1;
 }
+section.home .intro img {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 section.home .intro h1 {
   color: #FFF;
   font-size: 36px;
