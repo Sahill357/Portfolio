@@ -213,7 +213,7 @@ export default function Skills() {
               VIEW 1: CARDS GRID VIEW
               ========================================================= */}
           {viewMode === "grid" && (
-            <div className="row">
+            <div className="row skills-grid-row">
               {filteredCategories.length === 0 ? (
                 <div className="col-12 text-center py-5">
                   <p style={{ color: "#9c9ab3", fontSize: "16px" }}>
@@ -385,7 +385,7 @@ export default function Skills() {
         </div>
 
         {/* Spacer before next section */}
-        <div className="spacer" data-height={70} style={{ height: 70 }} />
+        <div className="spacer" data-height={0} style={{ height: 0 }} />
       </div>
     </section>
   );

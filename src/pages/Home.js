@@ -686,8 +686,6 @@ export default function Home() {
               <li className="list-inline-item" data-filter=".android-ios">Android/IOS</li>
 
               <li className="list-inline-item" data-filter=".fullstack">Full Stack</li>
-              <li className="list-inline-item" data-filter=".next">Next.js</li>
-
             </ul>
 
             {/* portfolio filter (mobile) */}
@@ -699,22 +697,21 @@ export default function Home() {
                 <option value="android-ios">Android/IOS</option>
 
                 <option value="fullstack">Full Stack</option>
-                <option value="next">Next.js</option>
               </select>
             </div>
             {/* portolio wrapper */}
             <div className="row portfolio-wrapper">
               {/* portfolio item */}
-              <div className="col-md-4 col-sm-6 grid-item fullstack Backend">
-                <a href="https://www.ipshopy.com/index.php?route=common/home" target="_blank" rel="noopener noreferrer">
+              <div className="col-md-4 col-sm-6 grid-item fullstack Backend htmlwithreact">
+                <a href="https://www.ipshopy.com/" target="_blank" rel="noopener noreferrer">
                   <div className="portfolio-item rounded shadow-dark">
                     <div className="details">
-                      <span className="term">ipshopy</span>
-                      <h4 className="title">multi seller e-commerce platform</h4>
+                      <span className="term">ipshopy.com</span>
+                      <h4 className="title">Multi-Seller E-Commerce Platform</h4>
                       <span className="more-button"><i className="icon-link" /></span>
                     </div>
                     <div className="thumb">
-                      <img src="assets/images/works/ipshopy-desktop.png" alt="Portfolio-title" />
+                      <img src="assets/images/works/ipshopy-desktop.jpg" alt="ipshopy.com" />
                       <div className="mask" />
                     </div>
                   </div>
@@ -747,6 +744,23 @@ export default function Home() {
                     </div>
                     <div className="thumb">
                       <img src="assets/images/works/ipshopy-android.png" alt="Portfolio-title" />
+                      <div className="mask" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              {/* portfolio item */}
+              <div className="col-md-4 col-sm-6 grid-item fullstack Backend android-ios">
+                <a href="https://play.google.com/store/apps/details?id=com.hookouts.social" target="_blank" rel="noopener noreferrer">
+                  <div className="portfolio-item rounded shadow-dark">
+                    <div className="details">
+                      <span className="term">Hookouts</span>
+                      <h4 className="title">Hookouts Social & Dating App</h4>
+                      <span className="more-button"><i className="icon-link" /></span>
+                    </div>
+                    <div className="thumb">
+                      <img src="assets/images/works/hookouts.png" alt="Hookouts Social & Dating App" />
                       <div className="mask" />
                     </div>
                   </div>
@@ -805,7 +819,7 @@ export default function Home() {
               </div>
 
               {/* portfolio item */}
-              <div className="col-md-4 col-sm-6 grid-item art branding next">
+              <div className="col-md-4 col-sm-6 grid-item art branding htmlwithreact">
                 <a href="https://web-agency-sooty.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <div className="portfolio-item rounded shadow-dark">
                     <div className="details">
@@ -893,7 +907,7 @@ export default function Home() {
                   </div>
                 </a>
               </div> */}
-              <div className="col-md-4 col-sm-6 grid-item fullstack Backend next">
+              <div className="col-md-4 col-sm-6 grid-item fullstack Backend">
                 <a href="#!" target="_blank" rel="noopener noreferrer">
                   <div className="portfolio-item rounded shadow-dark">
                     <div className="details">
