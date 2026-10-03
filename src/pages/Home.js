@@ -721,7 +721,7 @@ export default function Home() {
                 <a href="http://erp.abstarthr.in/" target="_blank" rel="noopener noreferrer">
                   <div className="portfolio-item rounded shadow-dark">
                     <div className="details">
-                      <span className="term">ERP</span>
+                      <span className="term">abstarthr</span>
                       <h4 className="title">ERP Management System</h4>
                       <span className="more-button"><i className="icon-link" /></span>
                     </div>
