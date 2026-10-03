@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Skills from "../components/Skills";
+
 
 // Helper: load an external script and resolve when ready
 function loadScript(src) {
@@ -318,6 +320,12 @@ export default function Home() {
                 About
               </a>
             </li>
+            <li>
+              <a href="#skills" className="nav-link">
+                <i className="icon-badge" />
+                Skills
+              </a>
+            </li>
             {/* <li>
               <a href="#services" className="nav-link">
                 <i className="icon-briefcase" />
@@ -383,7 +391,7 @@ export default function Home() {
               <span>
 
                 <span className="text-rotating morphext">
-                  <span className="animated bounceIn">Backend Engineer</span>
+                  <span className="animated bounceIn">Software Engineer</span>
                 </span>
               </span>
               {/* social icons */}
@@ -539,6 +547,9 @@ export default function Home() {
           </div>
         </section>
 
+        {/* section skills */}
+        <Skills />
+
         {/* section services */}
 
 
@@ -671,8 +682,8 @@ export default function Home() {
             <ul className="portfolio-filter list-inline wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
               <li className="list-inline-item current" data-filter="*">All</li>
               <li className="list-inline-item" data-filter=".Backend">Backend</li>
-              <li className="list-inline-item" data-filter=".android-ios">Android/IOS</li>
               <li className="list-inline-item" data-filter=".htmlwithreact">Frontend</li>
+              <li className="list-inline-item" data-filter=".android-ios">Android/IOS</li>
 
               <li className="list-inline-item" data-filter=".fullstack">Full Stack</li>
               <li className="list-inline-item" data-filter=".next">Next.js</li>
